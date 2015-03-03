@@ -12,7 +12,12 @@ Hand = ( deck ) ->
 	return hand
 
 TheCards = new Deck()
+YourHand = new Hand( TheCards.shuffle() )
 
-console.log( new Hand( TheCards.shuffle() ) )
+console.log( YourHand, YourHand[0].suitName(), YourHand[0].valueName() )
+
+console.log( YourHand.map( ( card, i ) ->
+	return card.valueName() + ' of ' + card.suitName()
+) )
 
 # console.log( TheCards.cards[15], TheCards.cards[15].color() )

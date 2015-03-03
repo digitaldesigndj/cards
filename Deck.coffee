@@ -1,28 +1,11 @@
+'use strict'
+
 Card = require( './Card' )
 
 Deck = ( options ) ->
 	@opts = options or {}
-	@suits = [
-		'clubs'
-		'diamonds'
-		'hearts'
-		'spades'
-	]
-	@values = [
-		'ace'
-		'two'
-		'three'
-		'four'
-		'five'
-		'six'
-		'seven'
-		'eight'
-		'nine'
-		'ten'
-		'jack'
-		'queen'
-		'king'
-	]
+	@suits = [0...3]
+	@values = [0...12]
 	@cards = @init()
 	return @
 
@@ -39,6 +22,7 @@ Deck::init = ( ) ->
 	.reduce( ( a, b ) ->
 		return a.concat( b )
 	)
+	return deck
 
 Deck::shuffle = ( ) ->
 	array = @cards

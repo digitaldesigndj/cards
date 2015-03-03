@@ -2,14 +2,37 @@
 
 Card = ( options ) ->
 	@opts = options or {}
-	# @opts.suit = options.suit or 'hearts'
-	# @opts.value = options.suit or 'ace'
+	suitNames = [
+		'hearts'
+		'diamonds'
+		'clubs'
+		'spades'
+	]
+	valueNames =[
+		'ace'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		'seven'
+		'eight'
+		'nine'
+		'ten'
+		'jack'
+		'queen'
+		'king'
+	]
 	card = 
 		suit: @opts.suit
 		value: @opts.value
+		suitName: () ->
+			return suitNames[@suit]
+		valueName: () ->
+			return valueNames[@value]
 		color: () ->
 			console.log( @suit )
-			if @suit == 'hearts' or @suit == 'diamonds'
+			if @suitName() == 'hearts' or @suitName() == 'diamonds'
 				return 'red'
 			else
 				return 'black'
