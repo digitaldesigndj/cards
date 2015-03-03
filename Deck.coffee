@@ -4,15 +4,16 @@ Card = require( './Card' )
 
 Deck = ( options ) ->
 	@opts = options or {}
-	@suits = [0...3]
-	@values = [0...12]
+	@suits = [0..3]
+	@values = [0..12]
+	console.log( @values )
 	@cards = @init()
 	return @
 
 Deck::init = ( ) ->
 	self = @
 	deck = self.suits.map( ( suit, i ) ->
-		self.values.map( ( value, val_i ) -> 
+		return self.values.map( ( value, val_i ) -> 
 			return new Card(
 				suit: suit
 				value: value

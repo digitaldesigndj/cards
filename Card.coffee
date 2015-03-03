@@ -24,15 +24,15 @@ Card = ( options ) ->
 		'king'
 	]
 	card = 
-		suit: @opts.suit
-		value: @opts.value
-		suitName: () ->
-			return suitNames[@suit]
-		valueName: () ->
-			return valueNames[@value]
+		rawSuit: @opts.suit
+		rawValue: @opts.value
+		suit: () ->
+			return suitNames[@rawSuit]
+		value: () ->
+			return valueNames[@rawValue]
 		color: () ->
-			console.log( @suit )
-			if @suitName() == 'hearts' or @suitName() == 'diamonds'
+			console.log( @rawSuit )
+			if @suit() == 'hearts' or @suit() == 'diamonds'
 				return 'red'
 			else
 				return 'black'

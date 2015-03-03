@@ -4,20 +4,23 @@ Deck = require( './Deck' )
 
 Hand = ( deck ) ->
 	hand = []
-	hand.push( deck[0] )
-	hand.push( deck[1] )
-	hand.push( deck[2] )
-	hand.push( deck[3] )
-	hand.push( deck[4] )
+	# console.log deck.cards
+	console.log( deck.cards.length )
+	hand.push( deck.cards.shift() )
+	hand.push( deck.cards.shift() )
+	hand.push( deck.cards.shift() )
+	hand.push( deck.cards.shift() )
+	hand.push( deck.cards.shift() )
+	console.log( deck.cards.length )
 	return hand
 
-TheCards = new Deck()
-YourHand = new Hand( TheCards.shuffle() )
+# YourHand = new Hand( new Deck().shuffle() )
+YourHand = new Hand( new Deck() )
 
-console.log( YourHand, YourHand[0].suitName(), YourHand[0].valueName() )
+# console.log( YourHand, YourHand[0].suit(), YourHand[0].value() )
 
-console.log( YourHand.map( ( card, i ) ->
-	return card.valueName() + ' of ' + card.suitName()
-) )
+# console.log( YourHand.map( ( card, i ) ->
+# 	return card.value() + ' of ' + card.suit()
+# ) )
 
 # console.log( TheCards.cards[15], TheCards.cards[15].color() )
