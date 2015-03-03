@@ -8,6 +8,8 @@ Poker = require( './Poker' )
 
 JacksOrBetter = new Poker()
 
+credits = 1000
+
 reportHand = ( a_hand ) ->
 	a_hand.cards.map( ( card, i ) ->
 		return card.value() + ' of ' + card.suit()
@@ -20,7 +22,34 @@ playPoker = ( ) ->
 		deck: TheDeck
 		size: 5
 	)
-	console.log( reportHand( TheHand ) , JacksOrBetter.score( TheHand ) )
+
+	# Play Poker Here
+
+
+
+	# Score Poker
+	bet = 5
+	score = JacksOrBetter.score( TheHand, bet )
+	credits = credits - bet
+	credits = credits + score.win
+	console.log( credits )
+
+	# if score.status is 'jacksbetter'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is '2pair'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is '3kind'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is 'flush'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is '4kind'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is 'royalflush'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is 'straightflush'
+	# 	console.log( reportHand( TheHand ) , score )
+	# if score.status is 'straight'
+	# 	console.log( reportHand( TheHand ) , score )
 
 playPoker()
 
