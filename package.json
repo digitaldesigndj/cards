@@ -1,0 +1,11 @@
+{
+  "name": "cards.hyprtxt.com",
+  "version": "0.1.0",
+  "description": "JavaScript Deck of Cards",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taylor Young",
+  "license": "MIT "
+}
