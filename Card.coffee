@@ -2,6 +2,8 @@
 
 Card = ( options ) ->
 	@opts = options or {}
+	@opts.suit = options.suit or 0
+	@opts.value = options.value or 0
 	suitNames = [
 		'hearts'
 		'diamonds'

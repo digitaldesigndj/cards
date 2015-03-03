@@ -6,8 +6,8 @@ Deck = ( options ) ->
 	@opts = options or {}
 	@suits = [0..3]
 	@values = [0..12]
-	console.log( @values )
 	@cards = @init()
+	@shuffled = false
 	return @
 
 Deck::init = ( ) ->
@@ -35,6 +35,11 @@ Deck::shuffle = ( ) ->
 		temp = array[counter]
 		array[counter] = array[index]
 		array[index] = temp
+	@shuffled = true
 	return array
+
+Deck::draw = ( ) ->
+	return @cards.shift()
+
 
 module.exports = Deck
