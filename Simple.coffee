@@ -12,6 +12,18 @@ Simple::play = ( hand ) ->
 	score = JacksOrBetter.score( hand, 5 )
 	# console.log( score )
 
+	values = []
+	hand.cards.map( ( card, i ) ->
+		values.push( card.rawValue )
+	)
+	values.sort( sortNumber )
+
+	suits = []
+	hand.cards.map( ( card, i ) ->
+		suits.push( card.rawSuit )
+	)
+
+
 	# score.status = 'royalflush'
 	# score.status = 'straightflush'
 	# score.status = '4kind'
@@ -35,6 +47,22 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a royal flush
+	four2flush = values
+	if four2flush.shift() is 0
+	# if acelow
+			[
+				[0,9,10,11]
+				[0,9,10,12]
+				[0,9,11,12]
+				[0,10,11,12]
+			].map( ( v, i ) ->
+				if JSON.stringify( four2flush ) is JSON.stringify( v )
+					return hand
+			)
+	else
+		if JSON.stringify( four2flush ) is JSON.stringify( [9,10,11,12] )
+			return hand
+
 
 	# Three of a kind, straight, flush, full house
 
@@ -61,6 +89,16 @@ Simple::play = ( hand ) ->
 	# 3 to a royal flush
 
 	# 4 to a flush
+	[0..3].map( ( v, i ) ->
+		count = 0
+		suits.map( ( val, idx ) ->
+			if val == v
+				count++
+			return
+		)
+		if count is 4
+			return hand
+	)
 
 	# Low pair
 	if score.status is 'lowpair'
@@ -88,11 +126,11 @@ Simple::play = ( hand ) ->
 
 	return hand
 
-Simple::step1 = ( hand ) ->
-	console.log hand
-	return 'whatss'
+# Simple::step1 = ( hand ) ->
+# 	console.log hand
+# 	return 'whatss'
 
-# sortNumber = ( a, b ) ->
-# 	return a - b
+sortNumber = ( a, b ) ->
+	return a - b
 
 module.exports = Simple

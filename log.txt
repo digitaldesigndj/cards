@@ -1,0 +1,4548 @@
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+995 995
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+990 990
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+985 985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+980 980
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+975 975
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+970 970
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+970 970
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+965 965
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+965 965
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+960 960
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+960 960
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+955 955
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+950 950
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+945 945
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+940 940
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+935 935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+935 935
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+940 940
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+935 935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+935 935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+935 935
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+930 930
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+930 925
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+930 925
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+925 920
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+920 915
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+915 910
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+910 905
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+905 900
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+900 895
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+900 895
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+895 890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+890 885
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+895 890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+890 885
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+885 880
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+880 875
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+890 885
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+885 880
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+895 890
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+890 885
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+885 880
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+880 875
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+875 870
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+870 865
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+865 860
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+860 855
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+855 850
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+860 855
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+855 850
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+855 850
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+850 845
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+845 840
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+840 835
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+850 845
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+850 840
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+845 835
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+840 830
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+835 825
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+830 820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+825 815
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+835 810
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+830 805
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+825 800
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+830 795
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+825 790
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+820 785
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+815 780
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+810 775
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+810 770
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+805 765
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+805 765
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+800 760
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+795 755
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+790 750
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+785 745
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+780 740
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+775 735
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+775 730
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+775 725
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+785 735
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+780 730
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+775 725
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+775 720
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+775 720
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+770 715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+765 710
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+775 720
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+770 715
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+770 710
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+765 705
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+760 700
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+760 700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+755 695
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+755 695
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+750 690
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+745 685
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+745 685
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+740 680
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+735 675
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+730 670
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+725 665
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+720 660
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+715 655
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+715 655
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+710 650
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+705 645
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+705 640
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+705 640
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+700 635
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+695 630
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+695 625
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+690 620
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+685 615
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+680 610
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+680 605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+675 600
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+670 595
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+665 590
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+670 595
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+665 590
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+675 600
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+670 595
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+665 590
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+660 585
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+655 580
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+650 575
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+650 575
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+645 570
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+640 565
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+635 560
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+635 555
+{ status: 'flush', win: 30 } { status: 'ulose', win: 0 }
+660 550
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+670 560
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+665 555
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+660 550
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+655 545
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+650 540
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+645 535
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+640 530
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+635 525
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+630 520
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+625 515
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+620 510
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+615 505
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+620 500
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+620 500
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+615 495
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+620 490
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+620 490
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+620 490
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+625 495
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+625 495
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+620 490
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+620 490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+615 485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+610 480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+605 475
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+600 470
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+595 465
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+590 460
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+585 455
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+580 450
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+580 450
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+575 445
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+575 440
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+575 440
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+570 435
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+565 430
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+560 425
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+555 420
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+560 415
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+555 410
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+550 405
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+545 400
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+540 395
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+535 390
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+530 385
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+525 380
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+525 375
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+525 375
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+520 370
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+525 375
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+520 370
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+515 365
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+515 365
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+510 360
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+505 355
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+500 350
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+495 345
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+495 345
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+490 340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+485 335
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+480 330
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+485 335
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+480 330
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+495 345
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+490 340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+485 335
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+480 330
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+475 325
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+475 320
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+475 320
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+470 315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+465 310
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+460 305
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+455 300
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+450 295
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+445 290
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+450 295
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+455 300
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+450 295
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+445 290
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+445 285
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+440 280
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+435 275
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+430 270
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+425 265
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+420 260
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+415 255
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+420 260
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+420 260
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+415 255
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+410 250
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+405 245
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+410 250
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+405 245
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+405 245
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+400 240
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+395 235
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+395 235
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+405 245
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+405 245
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+400 240
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+395 235
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+390 230
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+385 225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+380 220
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+375 215
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+375 210
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+370 205
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+375 210
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+375 205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+370 200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+365 195
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+370 190
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+365 185
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+360 180
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+355 175
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+355 170
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+350 165
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+345 160
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+345 160
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+340 155
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+335 150
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+330 145
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+325 140
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+320 135
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+315 130
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+320 135
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+315 130
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+310 125
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+305 120
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+300 115
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+295 110
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+290 105
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+285 100
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+285 95
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+280 90
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+285 95
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+280 90
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+275 85
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+270 80
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+265 75
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+260 70
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+260 65
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+255 60
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+250 55
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+245 50
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+240 45
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+250 55
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+245 50
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+245 50
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+250 45
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+250 45
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+245 40
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+250 35
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+250 35
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+245 30
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+240 25
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+235 20
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+235 15
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+230 10
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+230 10
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+225 5
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+220 0
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+220 0
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+220 0
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+215 -5
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+210 -10
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+205 -15
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+200 -20
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+200 -20
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+195 -25
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+190 -30
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+190 -35
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+185 -40
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+180 -45
+{ status: 'fullhouse', win: 45 } { status: 'fullhouse', win: 45 }
+220 -5
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+220 -5
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+225 0
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+220 -5
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+225 0
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+220 -5
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+215 -10
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+210 -15
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+205 -20
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+200 -25
+{ status: 'fullhouse', win: 45 } { status: 'fullhouse', win: 45 }
+240 15
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+240 15
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+235 10
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+230 5
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+230 0
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+230 0
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+225 -5
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+220 -10
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+230 0
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+225 -5
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+220 -10
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+215 -15
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+210 -20
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+205 -25
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+205 -25
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+200 -30
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+195 -35
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+190 -40
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+185 -45
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+180 -50
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+175 -55
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+175 -55
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+170 -60
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+165 -65
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+160 -70
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+175 -55
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+180 -50
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+175 -55
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+170 -60
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+170 -65
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+165 -70
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+160 -75
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+155 -80
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+150 -85
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+150 -85
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+150 -85
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+145 -90
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+145 -90
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+155 -95
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+160 -90
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+155 -95
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+150 -100
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+145 -105
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+140 -110
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+140 -110
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+135 -115
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+130 -120
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+125 -125
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+120 -130
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+115 -135
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+120 -130
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+115 -135
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+115 -135
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+110 -140
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+105 -145
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+100 -150
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+95 -155
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+100 -150
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+95 -155
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+95 -155
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+105 -145
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+100 -150
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+95 -155
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+90 -160
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+85 -165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+85 -165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+85 -165
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+90 -160
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+85 -165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+85 -165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+85 -165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+85 -165
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+80 -170
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+85 -175
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+80 -180
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+75 -185
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+70 -190
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+65 -195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+60 -200
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+55 -205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+50 -210
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+60 -215
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+55 -220
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+50 -225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+45 -230
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+45 -235
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+40 -240
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+35 -245
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+30 -250
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+25 -255
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+25 -260
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+20 -265
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+20 -265
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+20 -265
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+15 -270
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+10 -275
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+5 -280
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+0 -285
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+10 -275
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+10 -280
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+10 -280
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+15 -285
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+15 -285
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+15 -290
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+10 -295
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+5 -300
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+0 -305
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-5 -310
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-10 -315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-15 -320
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-20 -325
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-25 -330
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-30 -335
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-35 -340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-40 -345
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-45 -350
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-50 -355
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-55 -360
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-60 -365
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-65 -370
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-70 -375
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-75 -380
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-80 -385
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-80 -385
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-80 -385
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-85 -390
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-90 -395
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-95 -400
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-100 -405
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-95 -400
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-100 -405
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-105 -410
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-110 -415
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-115 -420
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-120 -425
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-120 -425
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-125 -430
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-130 -435
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-135 -440
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-125 -445
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-130 -450
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-135 -455
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-140 -460
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-145 -465
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-145 -465
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-150 -470
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-155 -475
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-160 -480
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-165 -485
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-165 -485
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-165 -485
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-165 -485
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-170 -490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-175 -495
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-180 -500
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-175 -495
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-180 -500
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-180 -500
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-185 -505
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-190 -510
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-195 -515
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-195 -515
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-185 -520
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-190 -525
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-190 -525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-195 -530
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-200 -535
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-205 -540
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-210 -545
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-215 -550
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-215 -555
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-215 -555
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-215 -560
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-220 -565
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-225 -570
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-225 -570
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-230 -575
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-220 -565
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-225 -570
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-230 -575
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-235 -580
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-240 -585
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-240 -585
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-245 -590
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-250 -595
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-250 -595
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-255 -600
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-260 -605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-265 -610
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-270 -615
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-270 -620
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-270 -620
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-270 -625
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-270 -625
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-275 -630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-280 -635
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-275 -640
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-280 -645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-285 -650
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-280 -645
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-280 -645
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-285 -650
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-285 -655
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-285 -660
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-290 -665
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-280 -670
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-285 -675
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-290 -680
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-295 -685
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-300 -690
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-305 -695
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-310 -700
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-310 -700
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-315 -705
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-320 -710
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-320 -715
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-315 -710
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-320 -715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-325 -720
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-330 -725
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-335 -730
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-340 -735
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-345 -740
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-335 -730
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-340 -735
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-345 -740
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-345 -740
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-350 -745
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-355 -750
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-360 -755
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-355 -750
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-360 -755
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-365 -760
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-370 -765
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-375 -770
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-370 -765
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-370 -765
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-370 -765
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-370 -765
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-375 -770
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-380 -775
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-370 -765
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-375 -770
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-380 -775
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-385 -780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-390 -785
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-395 -790
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-400 -795
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-405 -800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-410 -805
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-405 -800
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-410 -805
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-415 -810
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-415 -810
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-420 -815
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-425 -820
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-430 -825
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-435 -830
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-440 -835
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-445 -840
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-450 -845
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-455 -850
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-460 -855
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-465 -860
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-470 -865
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-475 -870
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-480 -875
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-485 -880
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-490 -885
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-495 -890
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-500 -895
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-490 -885
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-490 -890
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-495 -895
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-495 -895
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-500 -900
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-505 -905
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-510 -910
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-515 -915
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-510 -910
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-510 -910
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-515 -915
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-520 -920
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-525 -925
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-530 -930
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-535 -935
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-540 -940
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-540 -945
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-545 -950
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-550 -955
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-555 -960
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-560 -965
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-565 -970
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-570 -975
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-575 -980
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-580 -985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-585 -990
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-580 -985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-585 -990
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-585 -995
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-580 -990
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-585 -995
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-590 -1000
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-580 -990
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-585 -995
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-590 -1000
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-595 -1005
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-600 -1010
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-605 -1015
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-610 -1020
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-615 -1025
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-615 -1030
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-620 -1035
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-625 -1040
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-630 -1045
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-635 -1050
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-640 -1055
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-645 -1060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-645 -1060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-645 -1060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-645 -1060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-645 -1060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-645 -1060
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-650 -1065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-655 -1070
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-645 -1060
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-650 -1065
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-655 -1070
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-660 -1075
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-655 -1070
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-660 -1075
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-665 -1080
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-665 -1085
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-665 -1090
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-670 -1095
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-670 -1095
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-675 -1100
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-675 -1100
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-680 -1105
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-685 -1110
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-685 -1115
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-690 -1120
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-690 -1120
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-695 -1125
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-700 -1130
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-705 -1135
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-705 -1135
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-705 -1135
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-710 -1140
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-715 -1145
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-720 -1150
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-715 -1155
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-705 -1145
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-710 -1150
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-715 -1155
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-715 -1160
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-720 -1165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-720 -1165
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-725 -1170
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-715 -1160
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-720 -1165
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-725 -1170
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-725 -1170
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-725 -1170
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-730 -1175
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-735 -1180
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-735 -1185
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-730 -1180
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-735 -1185
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-735 -1190
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-730 -1185
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-730 -1190
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-735 -1195
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+-720 -1180
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-725 -1185
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-730 -1190
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-735 -1195
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-740 -1200
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-745 -1205
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-745 -1210
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-745 -1210
+{ status: 'flush', win: 30 } { status: 'flush', win: 30 }
+-720 -1185
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-725 -1190
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-730 -1195
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-735 -1200
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-730 -1195
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-730 -1195
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-735 -1200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-740 -1205
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-745 -1210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-750 -1215
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-755 -1220
+{ status: 'fullhouse', win: 45 } { status: 'fullhouse', win: 45 }
+-715 -1180
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-720 -1185
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-720 -1190
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-725 -1195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-730 -1200
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-730 -1200
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-730 -1200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-735 -1205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-740 -1210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-745 -1215
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-750 -1220
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-755 -1225
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-760 -1230
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-755 -1225
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-755 -1225
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-760 -1230
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-765 -1235
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-770 -1240
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-775 -1245
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-780 -1250
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-785 -1255
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-790 -1260
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-790 -1265
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-795 -1270
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-800 -1275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-805 -1280
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-810 -1285
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-800 -1275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-805 -1280
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-810 -1285
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-815 -1290
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-820 -1295
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-825 -1300
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-825 -1300
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-830 -1305
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-835 -1310
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-835 -1315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-840 -1320
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-845 -1325
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-845 -1330
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-845 -1330
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-845 -1330
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-850 -1335
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-855 -1340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-860 -1345
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-865 -1350
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-870 -1355
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-875 -1360
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-880 -1365
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-885 -1370
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-890 -1375
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-895 -1380
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-900 -1385
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-890 -1375
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-895 -1380
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-895 -1380
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-895 -1380
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-890 -1375
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-895 -1380
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-900 -1385
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-900 -1385
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-905 -1390
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-910 -1395
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-915 -1400
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-915 -1400
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-920 -1405
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-925 -1410
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-915 -1400
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-910 -1405
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-915 -1410
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-915 -1415
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-920 -1420
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-925 -1425
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-925 -1430
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-930 -1435
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-935 -1440
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-940 -1445
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-945 -1450
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-950 -1455
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-955 -1460
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-960 -1465
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-965 -1470
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-970 -1475
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-970 -1475
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-975 -1480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-980 -1485
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-975 -1480
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-975 -1480
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-975 -1480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-980 -1485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-985 -1490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-990 -1495
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-995 -1500
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1000 -1505
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1005 -1510
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1010 -1515
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1010 -1515
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1015 -1520
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1020 -1525
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1020 -1525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1025 -1530
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1030 -1535
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1020 -1525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1025 -1530
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1030 -1535
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1035 -1540
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1040 -1545
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1040 -1545
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1045 -1550
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1050 -1555
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1055 -1560
+{ status: 'fullhouse', win: 45 } { status: 'ulose', win: 0 }
+-1015 -1565
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1020 -1570
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1015 -1565
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+-1000 -1550
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1005 -1555
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1005 -1555
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1010 -1560
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1010 -1565
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1010 -1570
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1015 -1575
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1020 -1580
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1025 -1585
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1030 -1590
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1035 -1595
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-1025 -1600
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1030 -1605
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1035 -1610
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1035 -1615
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1035 -1620
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1040 -1625
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1045 -1630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1050 -1635
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1045 -1630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1050 -1635
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1055 -1640
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1060 -1645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1065 -1650
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1070 -1655
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1065 -1660
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1065 -1660
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1070 -1665
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1075 -1670
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1075 -1670
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1080 -1675
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1085 -1680
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1090 -1685
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1095 -1690
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1100 -1695
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1105 -1700
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1095 -1690
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1090 -1685
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1095 -1690
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1100 -1695
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1105 -1700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1110 -1705
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1115 -1710
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1120 -1715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1125 -1720
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1125 -1720
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1125 -1720
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1130 -1725
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1135 -1730
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1140 -1735
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1145 -1740
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1145 -1740
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1150 -1745
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1150 -1745
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1150 -1745
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1155 -1750
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1160 -1755
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1165 -1760
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1170 -1765
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1170 -1770
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1170 -1770
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1170 -1775
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1175 -1780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1180 -1785
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1185 -1790
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1175 -1780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1180 -1785
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1185 -1790
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1190 -1795
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1195 -1800
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1190 -1795
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1195 -1800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1200 -1805
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1205 -1810
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1210 -1815
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1200 -1805
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1195 -1810
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1190 -1805
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1195 -1810
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1200 -1815
+{ status: 'flush', win: 30 } { status: 'flush', win: 30 }
+-1175 -1790
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1180 -1795
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1185 -1800
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1175 -1790
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1180 -1795
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1180 -1800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1185 -1805
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1190 -1810
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1195 -1815
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1200 -1820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1205 -1825
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1210 -1830
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1215 -1835
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1220 -1840
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1225 -1845
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1230 -1850
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1235 -1855
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1240 -1860
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1240 -1860
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1245 -1865
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1245 -1870
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1245 -1870
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1245 -1870
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1250 -1875
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1255 -1880
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1260 -1885
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1255 -1890
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1255 -1890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1260 -1895
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1265 -1900
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1265 -1905
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1270 -1910
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1275 -1915
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1280 -1920
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1285 -1925
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1290 -1930
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1295 -1935
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1300 -1940
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1300 -1945
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1300 -1945
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1305 -1950
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1310 -1955
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1315 -1960
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1315 -1960
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1320 -1965
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1320 -1965
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1325 -1970
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1330 -1975
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1335 -1980
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1340 -1985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1345 -1990
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1350 -1995
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1355 -2000
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1360 -2005
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1365 -2010
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1370 -2015
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1365 -2020
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1370 -2025
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1375 -2030
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1370 -2035
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1375 -2040
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1380 -2045
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1380 -2045
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1385 -2050
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-1375 -2055
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1380 -2060
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1380 -2060
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1380 -2065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1385 -2070
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1385 -2070
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1390 -2075
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1380 -2065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1385 -2070
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1385 -2070
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1390 -2075
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1390 -2075
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1390 -2075
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1390 -2080
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1395 -2085
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1400 -2090
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1405 -2095
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1410 -2100
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1415 -2105
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1420 -2110
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1415 -2105
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1420 -2110
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1425 -2115
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1430 -2120
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1435 -2125
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1435 -2125
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1440 -2130
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1445 -2135
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1450 -2140
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1455 -2145
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1460 -2150
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1465 -2155
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1460 -2160
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1460 -2165
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1465 -2170
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1465 -2170
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1465 -2170
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1470 -2175
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1470 -2175
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1475 -2180
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1480 -2185
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1475 -2190
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1475 -2195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1480 -2200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1485 -2205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1490 -2210
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1495 -2215
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1500 -2220
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1500 -2225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1505 -2230
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1510 -2235
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1505 -2240
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1505 -2245
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1505 -2245
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1510 -2250
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1515 -2255
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1520 -2260
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1520 -2265
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1525 -2270
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1530 -2275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1535 -2280
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1540 -2285
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1545 -2290
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1550 -2295
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1555 -2300
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1560 -2305
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1565 -2310
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1570 -2315
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1565 -2310
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1570 -2315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1575 -2320
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1580 -2325
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1580 -2330
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1580 -2330
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1585 -2335
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1585 -2340
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1585 -2345
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1585 -2350
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1590 -2355
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1595 -2360
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1595 -2360
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1600 -2365
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1590 -2355
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-1580 -2360
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1580 -2365
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1585 -2370
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1590 -2375
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1595 -2380
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1590 -2385
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1590 -2385
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1595 -2390
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1600 -2395
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1605 -2400
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1600 -2395
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1605 -2400
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1610 -2405
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1615 -2410
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1610 -2405
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1615 -2410
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1620 -2415
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1625 -2420
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1630 -2425
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1630 -2430
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1635 -2435
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1640 -2440
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1645 -2445
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1650 -2450
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1655 -2455
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1655 -2460
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1660 -2465
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1665 -2470
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1670 -2475
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1675 -2480
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1680 -2485
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1675 -2480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1680 -2485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1685 -2490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1690 -2495
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1690 -2500
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1690 -2505
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1690 -2505
+{ status: 'flush', win: 30 } { status: 'flush', win: 30 }
+-1665 -2480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1670 -2485
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1675 -2490
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1680 -2495
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1685 -2500
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1690 -2505
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1695 -2510
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1690 -2505
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1695 -2510
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1695 -2510
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1700 -2515
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1705 -2520
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1710 -2525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1715 -2530
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1715 -2530
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1720 -2535
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1725 -2540
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1730 -2545
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1735 -2550
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1730 -2545
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1730 -2550
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1735 -2555
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1740 -2560
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1745 -2565
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1750 -2570
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1755 -2575
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1760 -2580
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1765 -2585
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1770 -2590
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1760 -2580
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1765 -2585
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1770 -2590
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1775 -2595
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1780 -2600
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1785 -2605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1790 -2610
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1795 -2615
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1795 -2615
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1795 -2615
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1800 -2620
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1805 -2625
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1810 -2630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1815 -2635
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1820 -2640
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1825 -2645
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1825 -2645
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1825 -2645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1830 -2650
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1835 -2655
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-1830 -2660
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1835 -2665
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1840 -2670
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1845 -2675
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1850 -2680
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1855 -2685
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1860 -2690
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1865 -2695
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1870 -2700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1875 -2705
+{ status: 'flush', win: 30 } { status: 'flush', win: 30 }
+-1850 -2680
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1850 -2685
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1850 -2685
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1850 -2685
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1855 -2690
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-1845 -2695
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1845 -2695
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1845 -2695
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1845 -2695
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1850 -2700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1855 -2705
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1860 -2710
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1850 -2700
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1850 -2700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1855 -2705
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1855 -2710
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1850 -2705
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1855 -2710
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1860 -2715
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1860 -2715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1865 -2720
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1870 -2725
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1870 -2730
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1875 -2735
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1875 -2740
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1880 -2745
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1885 -2750
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1890 -2755
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1890 -2755
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1880 -2745
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1885 -2750
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1890 -2755
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1885 -2750
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1890 -2755
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-1880 -2745
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-1870 -2750
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1875 -2755
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1880 -2760
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1885 -2765
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1890 -2770
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1895 -2775
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1895 -2775
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1900 -2780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1905 -2785
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1905 -2790
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1905 -2790
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1910 -2795
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1910 -2800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1915 -2805
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1920 -2810
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1925 -2815
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1930 -2820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1935 -2825
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1940 -2830
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1940 -2835
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1945 -2840
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1950 -2845
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1955 -2850
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1960 -2855
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1965 -2860
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1970 -2865
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1975 -2870
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1980 -2875
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1975 -2870
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1980 -2875
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1975 -2870
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-1980 -2875
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1985 -2880
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1985 -2880
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-1985 -2880
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1990 -2885
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-1990 -2890
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-1995 -2895
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-1990 -2890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-1995 -2895
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2000 -2900
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2005 -2905
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2000 -2900
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2005 -2905
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2010 -2910
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2015 -2915
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2020 -2920
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2025 -2925
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2025 -2925
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2030 -2930
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2035 -2935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2035 -2935
+{ status: 'fullhouse', win: 45 } { status: 'ulose', win: 0 }
+-1995 -2940
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2000 -2945
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2005 -2950
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2005 -2950
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2010 -2955
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2015 -2960
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2020 -2965
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2020 -2965
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2025 -2970
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2025 -2970
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2030 -2975
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2020 -2965
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2025 -2970
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2030 -2975
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2030 -2980
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2025 -2975
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2030 -2980
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2035 -2985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2040 -2990
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2030 -2980
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2035 -2985
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2040 -2990
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2045 -2995
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2045 -2995
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-2040 -3000
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2045 -3005
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-2040 -3010
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2045 -3015
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2040 -3010
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2040 -3015
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2045 -3020
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2050 -3025
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2050 -3025
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2055 -3030
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2060 -3035
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2065 -3040
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2065 -3040
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2070 -3045
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2065 -3040
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2070 -3045
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2070 -3050
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2075 -3055
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2080 -3060
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2085 -3065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2090 -3070
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2095 -3075
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2100 -3080
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2105 -3085
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2095 -3075
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2100 -3080
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2100 -3085
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2105 -3090
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2110 -3095
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2115 -3100
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2120 -3105
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2125 -3110
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2130 -3115
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2135 -3120
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2140 -3125
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2145 -3130
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2145 -3130
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2150 -3135
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2155 -3140
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2155 -3145
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2160 -3150
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2160 -3150
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2165 -3155
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2170 -3160
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2175 -3165
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2180 -3170
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2185 -3175
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2190 -3180
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2195 -3185
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2200 -3190
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2200 -3190
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2200 -3195
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2205 -3200
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2210 -3205
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2215 -3210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2220 -3215
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2225 -3220
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2230 -3225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2235 -3230
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2230 -3225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2235 -3230
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2240 -3235
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2245 -3240
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2250 -3245
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2255 -3250
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2255 -3255
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2255 -3255
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2245 -3245
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2250 -3250
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2250 -3250
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2255 -3255
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2260 -3260
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2260 -3260
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2265 -3265
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2270 -3270
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2275 -3275
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2280 -3280
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2285 -3285
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2285 -3285
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2290 -3290
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2295 -3295
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2295 -3295
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2295 -3300
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2300 -3305
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2305 -3310
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2310 -3315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2315 -3320
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2320 -3325
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2325 -3330
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2330 -3335
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2335 -3340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2340 -3345
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2345 -3350
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2335 -3340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2340 -3345
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2345 -3350
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2345 -3355
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2350 -3360
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2355 -3365
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2360 -3370
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2365 -3375
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2365 -3380
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2365 -3385
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2370 -3390
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2375 -3395
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2380 -3400
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2385 -3405
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2390 -3410
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2395 -3415
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2395 -3415
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2395 -3420
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2390 -3415
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2390 -3420
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2395 -3425
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2390 -3420
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2390 -3425
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2390 -3425
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2395 -3430
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2400 -3435
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2405 -3440
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2410 -3445
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2415 -3450
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2420 -3455
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2425 -3460
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2425 -3460
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2430 -3465
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2435 -3470
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2440 -3475
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2440 -3475
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2440 -3480
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2440 -3480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2445 -3485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2450 -3490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2455 -3495
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2460 -3500
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2455 -3495
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2455 -3495
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2460 -3500
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2465 -3505
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2465 -3510
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2470 -3515
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2475 -3520
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2470 -3515
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2475 -3520
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-2465 -3525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2470 -3530
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2475 -3535
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2480 -3540
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2480 -3545
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2485 -3550
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2490 -3555
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2485 -3550
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2480 -3545
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2480 -3545
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2480 -3550
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2485 -3555
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2490 -3560
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2495 -3565
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2495 -3570
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2500 -3575
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2500 -3580
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2505 -3585
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2510 -3590
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2515 -3595
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2515 -3600
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2520 -3605
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-2510 -3610
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2515 -3615
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2520 -3620
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2525 -3625
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2530 -3630
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2535 -3635
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2535 -3635
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2535 -3635
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2540 -3640
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2545 -3645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2550 -3650
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2555 -3655
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2560 -3660
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2565 -3665
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2570 -3670
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2565 -3665
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2570 -3670
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2575 -3675
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2580 -3680
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2585 -3685
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2585 -3685
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2585 -3690
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2590 -3695
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2595 -3700
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2600 -3705
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2600 -3705
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2605 -3710
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2610 -3715
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2600 -3705
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2605 -3710
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2610 -3715
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2615 -3720
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+-2600 -3705
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2600 -3705
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2595 -3700
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2600 -3705
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2605 -3710
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2610 -3715
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2615 -3720
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2615 -3720
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2620 -3725
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2625 -3730
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2620 -3725
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2615 -3720
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2620 -3725
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2620 -3725
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2620 -3730
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2625 -3735
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2625 -3740
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2630 -3745
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2635 -3750
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2640 -3755
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-2635 -3760
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2640 -3765
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2645 -3770
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2650 -3775
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2655 -3780
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2660 -3785
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2665 -3790
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2670 -3795
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2670 -3795
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2670 -3795
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2675 -3800
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2675 -3805
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2680 -3810
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2685 -3815
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2690 -3820
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2695 -3825
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2690 -3820
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2695 -3825
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2700 -3830
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2705 -3835
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2705 -3835
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2700 -3830
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2705 -3835
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2710 -3840
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2715 -3845
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2720 -3850
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2725 -3855
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2730 -3860
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2735 -3865
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2740 -3870
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2745 -3875
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2750 -3880
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2755 -3885
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2760 -3890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2765 -3895
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2770 -3900
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2770 -3900
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2775 -3905
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2780 -3910
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2785 -3915
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-2775 -3920
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2770 -3915
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2775 -3920
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2780 -3925
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2785 -3930
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2790 -3935
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2795 -3940
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2800 -3945
+{ status: 'straight', win: 20 } { status: 'ulose', win: 0 }
+-2785 -3950
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2790 -3955
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2795 -3960
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2795 -3960
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2795 -3960
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2800 -3965
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2805 -3970
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2810 -3975
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2815 -3980
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2805 -3970
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2810 -3975
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2815 -3980
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2820 -3985
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2825 -3990
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2825 -3990
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2830 -3995
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2835 -4000
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2840 -4005
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2845 -4010
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2845 -4010
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2845 -4015
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2850 -4020
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2855 -4025
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2855 -4030
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2860 -4035
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2865 -4040
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2865 -4045
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2865 -4050
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2870 -4055
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2870 -4055
+{ status: 'straight', win: 20 } { status: 'straight', win: 20 }
+-2855 -4040
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2860 -4045
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2865 -4050
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2870 -4055
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2875 -4060
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2880 -4065
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2880 -4065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2885 -4070
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2890 -4075
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2885 -4070
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2885 -4070
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2890 -4075
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2895 -4080
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2895 -4085
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2900 -4090
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2900 -4090
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2900 -4095
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2905 -4100
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2895 -4090
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2900 -4095
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2905 -4100
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-2900 -4105
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2900 -4105
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2905 -4110
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2905 -4110
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2910 -4115
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2915 -4120
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2920 -4125
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2925 -4130
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2930 -4135
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-2920 -4140
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2920 -4140
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2925 -4145
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2930 -4150
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2930 -4150
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2935 -4155
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2940 -4160
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2945 -4165
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2950 -4170
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-2945 -4165
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2950 -4170
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2955 -4175
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2960 -4180
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2965 -4185
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-2965 -4190
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2970 -4195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2975 -4200
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-2980 -4205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2985 -4210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2990 -4215
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-2995 -4220
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-2985 -4210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2990 -4215
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-2995 -4220
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-2995 -4220
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3000 -4225
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3000 -4225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3005 -4230
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3010 -4235
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3010 -4235
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3015 -4240
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3020 -4245
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3025 -4250
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3020 -4245
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3025 -4250
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3030 -4255
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3035 -4260
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3040 -4265
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3045 -4270
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3050 -4275
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3050 -4275
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3050 -4275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3055 -4280
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3060 -4285
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3055 -4290
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3060 -4295
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3060 -4295
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3060 -4295
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3050 -4285
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3050 -4285
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4290
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3050 -4285
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3040 -4290
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3045 -4295
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3050 -4300
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3040 -4290
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3045 -4295
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3045 -4295
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3040 -4290
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3045 -4295
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3050 -4300
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4305
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3060 -4310
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3060 -4310
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3055 -4305
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3060 -4310
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3065 -4315
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3070 -4320
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3075 -4325
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3075 -4325
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3080 -4330
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3080 -4330
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3085 -4335
+{ status: 'fullhouse', win: 45 } { status: 'ulose', win: 0 }
+-3045 -4340
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3050 -4345
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3050 -4350
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4355
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3050 -4350
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4355
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3060 -4360
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3065 -4365
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3065 -4365
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3070 -4370
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3070 -4370
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3075 -4375
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3070 -4370
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3075 -4375
+{ status: 'flush', win: 30 } { status: 'ulose', win: 0 }
+-3050 -4380
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3055 -4385
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3060 -4390
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3065 -4395
+{ status: 'fullhouse', win: 45 } { status: 'fullhouse', win: 45 }
+-3025 -4355
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3025 -4360
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3030 -4365
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3035 -4370
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3040 -4375
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3040 -4375
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3040 -4375
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3045 -4380
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3050 -4385
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3050 -4390
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4395
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3050 -4400
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3055 -4405
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3060 -4410
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3065 -4415
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3070 -4420
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3075 -4425
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3080 -4430
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3085 -4435
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3090 -4440
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3095 -4445
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3100 -4450
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3105 -4455
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3110 -4460
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3115 -4465
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3115 -4465
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3105 -4455
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3105 -4460
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3110 -4465
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3110 -4470
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3115 -4475
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3120 -4480
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3120 -4485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3125 -4490
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3130 -4495
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3125 -4490
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3130 -4495
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3120 -4485
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3125 -4490
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3130 -4495
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3135 -4500
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3140 -4505
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3145 -4510
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3150 -4515
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3155 -4520
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3160 -4525
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3165 -4530
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3160 -4525
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3165 -4530
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3170 -4535
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3175 -4540
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3175 -4540
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3180 -4545
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3185 -4550
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3180 -4545
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3185 -4550
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3190 -4555
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3195 -4560
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3195 -4560
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3195 -4560
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3200 -4565
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3205 -4570
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3210 -4575
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3210 -4575
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3210 -4575
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3215 -4580
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3220 -4585
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3220 -4585
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3210 -4590
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3210 -4590
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3205 -4585
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3210 -4590
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3215 -4595
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3220 -4600
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3225 -4605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3230 -4610
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3225 -4605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3230 -4610
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3235 -4615
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3235 -4615
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3240 -4620
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3240 -4620
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3245 -4625
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3250 -4630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3255 -4635
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3260 -4640
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3265 -4645
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3265 -4645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3270 -4650
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3275 -4655
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3275 -4655
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3275 -4655
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3280 -4660
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3285 -4665
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3285 -4665
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3290 -4670
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3295 -4675
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3300 -4680
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3305 -4685
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3295 -4675
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3300 -4680
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3300 -4680
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3305 -4685
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3310 -4690
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3315 -4695
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3315 -4695
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3310 -4700
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3315 -4705
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3320 -4710
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3325 -4715
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3320 -4710
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3320 -4715
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3320 -4715
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3315 -4710
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3320 -4715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3325 -4720
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3325 -4720
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3330 -4725
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3335 -4730
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3330 -4725
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3335 -4730
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3340 -4735
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3330 -4725
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3335 -4730
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3335 -4735
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3325 -4740
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3330 -4745
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3335 -4750
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3340 -4755
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3345 -4760
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3350 -4765
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3355 -4770
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3360 -4775
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3365 -4780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3370 -4785
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3360 -4790
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3355 -4795
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3360 -4800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3365 -4805
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3365 -4805
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3370 -4810
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3370 -4815
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3375 -4820
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3375 -4820
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3380 -4825
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3385 -4830
+{ status: 'fullhouse', win: 45 } { status: 'fullhouse', win: 45 }
+-3345 -4790
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3345 -4790
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3350 -4795
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3355 -4800
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3360 -4805
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3360 -4805
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3365 -4810
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3365 -4810
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3365 -4810
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3365 -4810
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3370 -4815
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3375 -4820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3380 -4825
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3370 -4815
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3370 -4820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3375 -4825
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3380 -4830
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3380 -4830
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3380 -4830
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3385 -4835
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3390 -4840
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3390 -4840
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3390 -4840
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3395 -4845
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3395 -4850
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3400 -4855
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3395 -4860
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3395 -4860
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3400 -4865
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3405 -4870
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3405 -4870
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3405 -4870
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3410 -4875
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3415 -4880
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3415 -4880
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3415 -4885
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3420 -4890
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3415 -4885
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3420 -4890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3425 -4895
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3430 -4900
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3435 -4905
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3440 -4910
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3445 -4915
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3445 -4920
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3445 -4920
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3450 -4925
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3450 -4930
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3450 -4930
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3455 -4935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3455 -4935
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3455 -4940
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3460 -4945
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3465 -4950
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3470 -4955
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3475 -4960
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3480 -4965
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3485 -4970
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3480 -4965
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3485 -4970
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3490 -4975
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3495 -4980
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3485 -4985
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3490 -4990
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3490 -4990
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3495 -4995
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3500 -5000
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3500 -5000
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3505 -5005
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3510 -5010
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3510 -5015
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3515 -5020
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3515 -5025
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-3510 -5030
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3500 -5020
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3505 -5025
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3510 -5030
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3510 -5030
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3515 -5035
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3515 -5040
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3520 -5045
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3525 -5050
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3530 -5055
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3535 -5060
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3540 -5065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3545 -5070
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3550 -5075
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3555 -5080
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3560 -5085
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3560 -5090
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3565 -5095
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3560 -5090
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3565 -5095
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3570 -5100
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3565 -5095
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3565 -5095
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3570 -5100
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3575 -5105
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3575 -5110
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3580 -5115
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3585 -5120
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3585 -5120
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3590 -5125
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3595 -5130
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3600 -5135
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3605 -5140
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3610 -5145
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3615 -5150
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3620 -5155
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3625 -5160
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3630 -5165
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3630 -5165
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3635 -5170
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3640 -5175
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3645 -5180
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3650 -5185
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3650 -5190
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3650 -5195
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3655 -5200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3660 -5205
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3665 -5210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3670 -5215
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3675 -5220
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3680 -5225
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3685 -5230
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3675 -5235
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3680 -5240
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3675 -5235
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3680 -5240
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3680 -5245
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3680 -5245
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3675 -5240
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3680 -5245
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3680 -5250
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3685 -5255
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3690 -5260
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3695 -5265
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3700 -5270
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3705 -5275
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3695 -5265
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3700 -5270
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3705 -5275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3710 -5280
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3715 -5285
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3720 -5290
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3725 -5295
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3730 -5300
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3735 -5305
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3730 -5300
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3735 -5305
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3740 -5310
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3735 -5305
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3740 -5310
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3735 -5305
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3740 -5310
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3745 -5315
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3750 -5320
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3755 -5325
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3760 -5330
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3765 -5335
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3765 -5335
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3770 -5340
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3775 -5345
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3780 -5350
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3775 -5345
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3780 -5350
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3780 -5350
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3785 -5355
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3790 -5360
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3795 -5365
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3800 -5370
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3805 -5375
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3810 -5380
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3815 -5385
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3820 -5390
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3820 -5395
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3820 -5400
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3825 -5405
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3825 -5405
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3830 -5410
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3830 -5415
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3835 -5420
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3835 -5420
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3835 -5425
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3840 -5430
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3840 -5435
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3845 -5440
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3845 -5440
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3835 -5430
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3840 -5435
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3845 -5440
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3850 -5445
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3855 -5450
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3860 -5455
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3860 -5455
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3865 -5460
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3870 -5465
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3875 -5470
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3880 -5475
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3880 -5475
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3885 -5480
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3890 -5485
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3895 -5490
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3900 -5495
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3895 -5490
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3895 -5495
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3885 -5500
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3890 -5505
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3895 -5510
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3900 -5515
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3905 -5520
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3910 -5525
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3915 -5530
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3915 -5535
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3915 -5535
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3920 -5540
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3925 -5545
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3930 -5550
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3930 -5550
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3930 -5550
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3935 -5555
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3930 -5550
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3930 -5555
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3935 -5560
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3940 -5565
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3945 -5570
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3950 -5575
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3955 -5580
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3955 -5580
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3960 -5585
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3960 -5585
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3950 -5590
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3955 -5595
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3955 -5595
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3960 -5600
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3965 -5605
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-3965 -5610
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-3960 -5605
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3965 -5610
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3970 -5615
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3975 -5620
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3980 -5625
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3985 -5630
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3990 -5635
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-3980 -5625
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3985 -5630
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-3985 -5630
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3990 -5635
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3995 -5640
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4000 -5645
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4000 -5645
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4005 -5650
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4010 -5655
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4010 -5655
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4015 -5660
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4015 -5660
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4020 -5665
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4025 -5670
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4030 -5675
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5680
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4030 -5675
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5680
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4040 -5685
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-4030 -5675
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4025 -5680
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4030 -5685
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5690
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4040 -5695
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4045 -5700
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4045 -5700
+{ status: '4kind', win: 125 } { status: 'ulose', win: 0 }
+-3925 -5705
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3930 -5710
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3935 -5715
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-3940 -5720
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3945 -5725
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3950 -5730
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3955 -5735
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3960 -5740
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3965 -5745
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3970 -5750
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3975 -5755
+{ status: '3kind', win: 15 } { status: 'ulose', win: 0 }
+-3965 -5760
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3970 -5765
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3975 -5770
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3980 -5775
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3985 -5780
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-3990 -5785
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-3995 -5790
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4000 -5795
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4005 -5800
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4005 -5800
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4005 -5800
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4010 -5805
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4010 -5810
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4015 -5815
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4020 -5820
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4025 -5825
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4025 -5830
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4030 -5835
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5840
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4040 -5845
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4045 -5850
+{ status: 'flush', win: 30 } { status: 'ulose', win: 0 }
+-4020 -5855
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4025 -5860
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4030 -5865
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4030 -5870
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4035 -5875
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4030 -5880
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5885
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4030 -5880
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4035 -5885
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4040 -5890
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4045 -5895
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4045 -5895
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4040 -5890
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4045 -5895
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4050 -5900
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4050 -5900
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4045 -5895
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4045 -5900
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4050 -5905
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4055 -5910
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4060 -5915
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4060 -5915
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4060 -5915
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4065 -5920
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4070 -5925
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4070 -5925
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4070 -5925
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4075 -5930
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4075 -5930
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4075 -5930
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4080 -5935
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4075 -5930
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4080 -5935
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4080 -5935
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4085 -5940
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4085 -5940
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4090 -5945
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4095 -5950
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4100 -5955
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4100 -5955
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4105 -5960
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4100 -5965
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4100 -5965
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4100 -5965
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4095 -5960
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4100 -5965
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4105 -5970
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4110 -5975
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4115 -5980
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4120 -5985
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4120 -5985
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4120 -5990
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4120 -5995
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4125 -6000
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4125 -6000
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4130 -6005
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4135 -6010
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4140 -6015
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4145 -6020
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4145 -6025
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4145 -6030
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4145 -6030
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4150 -6035
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4145 -6030
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4150 -6035
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4155 -6040
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4160 -6045
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4160 -6045
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4160 -6045
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-4150 -6035
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4155 -6040
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4155 -6040
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4160 -6045
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4165 -6050
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4165 -6050
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4170 -6055
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4175 -6060
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4170 -6065
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4170 -6065
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4175 -6070
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4170 -6065
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4170 -6065
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4175 -6070
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4180 -6075
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4185 -6080
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4185 -6080
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4180 -6085
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4185 -6090
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4190 -6095
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4190 -6095
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4195 -6100
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4200 -6105
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4205 -6110
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4210 -6115
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4215 -6120
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4220 -6125
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4225 -6130
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4230 -6135
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4235 -6140
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4240 -6145
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4245 -6150
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-4235 -6140
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4240 -6145
+{ status: '3kind', win: 15 } { status: '3kind', win: 15 }
+-4230 -6135
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4235 -6140
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4240 -6145
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4240 -6145
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4245 -6150
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4250 -6155
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4255 -6160
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4260 -6165
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4265 -6170
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4270 -6175
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4270 -6175
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4270 -6180
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4275 -6185
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4280 -6190
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4275 -6185
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4280 -6190
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4285 -6195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4290 -6200
+{ status: '2pair', win: 10 } { status: '2pair', win: 10 }
+-4285 -6195
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4290 -6200
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4295 -6205
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4300 -6210
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4305 -6215
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4310 -6220
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4310 -6220
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4315 -6225
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4315 -6225
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4320 -6230
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4320 -6230
+{ status: '2pair', win: 10 } { status: 'ulose', win: 0 }
+-4315 -6235
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4320 -6240
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4320 -6240
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4325 -6245
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4330 -6250
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4330 -6250
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4330 -6255
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4330 -6255
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4330 -6260
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4335 -6265
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4340 -6270
+{ status: 'jacksbetter', win: 5 } { status: 'ulose', win: 0 }
+-4340 -6275
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4345 -6280
+{ status: 'lowpair', win: 0 } { status: 'lowpair', win: 0 }
+-4350 -6285
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4355 -6290
+{ status: 'lowpair', win: 0 } { status: 'ulose', win: 0 }
+-4360 -6295
+{ status: 'jacksbetter', win: 5 } { status: 'jacksbetter', win: 5 }
+-4360 -6295
+{ status: 'ulose', win: 0 } { status: 'ulose', win: 0 }
+-4365 -6300
