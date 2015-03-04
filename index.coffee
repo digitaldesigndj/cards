@@ -6,9 +6,14 @@ Hand = require( './Hand' )
 
 Poker = require( './Poker' )
 
+Simple = require( './Simple' )
+
 JacksOrBetter = new Poker()
 
+Playa = new Simple()
+
 credits = 1000
+creditsNaked = 1000
 
 reportHand = ( a_hand ) ->
 	a_hand.cards.map( ( card, i ) ->
@@ -24,15 +29,24 @@ playPoker = ( ) ->
 	)
 
 	# Play Poker Here
-
+	# score = Playa.play( TheHand )
+	# console.log( score )
 
 
 	# Score Poker
 	bet = 5
-	score = JacksOrBetter.score( TheHand, bet )
+
+	scoreNaked = JacksOrBetter.score( TheHand, bet )
+	creditsNaked = creditsNaked - bet
+	creditsNaked = creditsNaked + scoreNaked.win
+
+	score = JacksOrBetter.score( Playa.play( TheHand ), bet )
 	credits = credits - bet
 	credits = credits + score.win
-	console.log( credits )
+
+	console.log( score, scoreNaked )
+	# console.log( Playa.play( TheHand ) , TheHand )
+	console.log( credits, creditsNaked )
 
 	# if score.status is 'jacksbetter'
 	# 	console.log( reportHand( TheHand ) , score )
