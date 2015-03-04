@@ -52,30 +52,28 @@ Simple::play = ( hand ) ->
 
 	# 4 to a royal flush
 	## Check for high cards
-	highCards = [0,9,10,11,12]
-	highCardsInHand = []
-	hand.cards.map( ( card, i ) ->
-		highCards.map( ( val ) ->
-			if card.rawValue is val
-				highCardsInHand.push( i )
-		)
-	)
-
+	high = getHighCards( hand )
 	## Check for a flush
-	flush = getFlush( hand )
+	flush = getFlushCards( hand )
 	# if flush isnt false
 	# 	console.log( 'FLUSH', flush )
+	royalFlushCards = []
 
-	if flush isnt false
-		if flush.cards.length >= 3
-			if highCardsInHand.length >= 3
-				royalFlushCards = []
-				highCardsInHand.map( ( cardindex ) ->
-					if flush.cards.indexOf( cardindex ) isnt -1
-						royalFlushCards.push( cardindex )
+	if flush.cards.length >= 3
+		if high.cards.length >= 3
+			high.cards.map( ( cardindex ) ->
+				if flush.cards.indexOf( cardindex ) isnt -1
+					royalFlushCards.push( cardindex )
+			)
+			if royalFlushCards.length is 4
+				hand.cards.map( ( card, i ) ->
+					if royalFlushCards.indexOf( card ) is -1
+						hand.replace( i )
 				)
-				console.log( royalFlushCards, royalFlushCards.length )
-				console.log( 'SomeROYAL', highCardsInHand, flush.cards )
+				return hand
+				# console.log( hand )
+				# console.log( royalFlushCards, royalFlushCards.length )
+				# console.log( 'SomeROYAL', high.cards, flush.cards )
 				# console.log( hand.cards )
 	# console.log( fourToAFlushSuit )
 	# if fourToAFlushSuit isnt ''
@@ -161,9 +159,12 @@ Simple::play = ( hand ) ->
 		return holdPairs( hand, values, 2 )
 
 	# 3 to a royal flush
-	# if threeToAFlushSuit isnt ''
-	# 	if highCardsInHand.length >= 3
-	# 		console.log( 'threeToAFlushSuit', threeToAFlushSuit )
+	if royalFlushCards.length >= 3
+		hand.cards.map( ( card, i ) ->
+			if royalFlushCards.indexOf( card ) is -1
+				hand.replace( i )
+		)
+		return hand
 
 	# 4 to a flush
 	# completion
@@ -224,11 +225,10 @@ Simple::play = ( hand ) ->
 sortNumber = ( a, b ) ->
 	return a - b
 
-getFlush = ( hand ) ->
-	flush = {
+getFlushCards = ( hand ) ->
+	flush =
 		cards: []
 		suit: ''
-	}
 	[0..3].map( ( v, i ) ->
 		count = 0
 		cards = []
@@ -242,10 +242,19 @@ getFlush = ( hand ) ->
 			flush.cards = cards
 			flush.suit = v
 	)
-	if flush.suit isnt ''
-		return flush
-	else
-		return false
+	return flush
+
+getHighCards = ( hand ) ->
+	high =
+		cards: []
+	highCards = [0,9,10,11,12]
+	hand.cards.map( ( card, i ) ->
+		highCards.map( ( val ) ->
+			if card.rawValue is val
+				high.cards.push( i )
+		)
+	)
+	return high
 
 holdPairs = ( hand, values, length ) ->
 	[0..12].map( ( v, i ) ->
