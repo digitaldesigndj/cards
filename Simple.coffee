@@ -1,7 +1,7 @@
 'use strict'
 
 Poker = require( './Poker' )
-util = require( './util' )
+Util = require( './util' )
 
 JacksOrBetter = new Poker()
 
@@ -11,9 +11,6 @@ Simple = ( options ) ->
 
 Simple::play = ( hand ) ->
 	score = JacksOrBetter.score( hand, 5 )
-	high = JacksOrBetter.getHighCards( hand )
-	flush = JacksOrBetter.getFlushCards( hand )
-	royalFlush = JacksOrBetter.getRoyalFlushCards( hand, high, flush )
 
 	# Simple Strategy 
 
@@ -26,6 +23,9 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a royal flush
+	high = JacksOrBetter.getHighCards( hand )
+	flush = JacksOrBetter.getFlushCards( hand )
+	royalFlush = JacksOrBetter.getRoyalFlushCards( hand, high, flush )
 	if flush.cards.length >= 3
 		if high.cards.length >= 3
 			if royalFlush.cards.length is 4
@@ -37,7 +37,7 @@ Simple::play = ( hand ) ->
 
 	# Three of a kind, straight, flush, full house
 	if score.status is '3kind'
-		return util.holdDupes( hand, 3 )
+		return Util.holdDupes( hand, 3 )
 
 	if score.status is 'straight'
 		return hand
@@ -47,9 +47,20 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a straight flush
-	# if flush.cards.length >= 4
-	# 	# DO THINGS LIKE 
-	# 	## Look for straight, discard outlier
+	straight = JacksOrBetter.getStraightOutlierCard( hand, 'all' )
+	if flush.cards.length >= 4
+		if straight.length isnt 0
+			console.log( flush.suit );
+			# once = false
+			console.log 'flush straight oulier: ' + straight
+			hand.cards.map ( card, i ) ->
+				if card.rawValue is straight
+					if card.rawSuit is flush.suit
+						# console.log( 'FLUSH no match ' )
+					else
+						# console.log( 'FLUSH - MATCH ' )
+						hand.replace( i )
+			return hand
 
 	# Two pair
 	if score.status is '2pair'
@@ -68,7 +79,7 @@ Simple::play = ( hand ) ->
 
 	# High pair
 	if score.status is 'jacksbetter'
-		return util.holdDupes( hand, 2 )
+		return Util.holdDupes( hand, 2 )
 
 	# 3 to a royal flush
 	if royalFlush.cards.length >= 3
@@ -88,15 +99,42 @@ Simple::play = ( hand ) ->
 
 	# Low pair
 	if score.status is 'lowpair'
-		return util.holdDupes( hand, 2 )
+		return Util.holdDupes( hand, 2 )
 
 	# 4 to an outside straight
+	outsideStraight = JacksOrBetter.getStraightOutlierCard( hand, 'outside' )
+	if outsideStraight.length isnt 0
+		# once = false
+		# console.log 'ouside straight oulier: ' + outsideStraight
+		hand.cards.map ( card, i ) ->
+			if card.rawValue is outsideStraight
+				hand.replace( i )
+		return hand
 
 	# 2 suited high cards
+	if flush.cards.length >= 2
+		if high.cards.length >= 2
+			# console.log( 'Things', high.cards, flush.suit )
+			suitedHigh = []
+			high.cards.map ( card_idx ) ->
+				if hand.cards[card_idx].rawSuit is flush.suit
+					suitedHigh.push( card_idx )
+				return
+			if suitedHigh.length >= 2
+				# console.log( '2 suited high cards', suitedHigh )
+				hand.keepArray( suitedHigh )
+				return hand
 
 	# 3 to a straight flush
 
 	# 2 unsuited high cards (if more than 2 then pick the lowest 2)
+	if high.cards.length >= 2
+		if high.cards.length == 2
+			# console.log  " CARDSSSS " + high.cards
+			hand.keepArray( high.cards )
+			return hand
+		else
+			false
 
 	# Suited 10/J, 10/Q, or 10/K
 

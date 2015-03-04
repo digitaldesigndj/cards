@@ -12,8 +12,8 @@ JacksOrBetter = new Poker()
 Simple = require( './Simple' )
 Optimal = require( './Optimal' )
 
-# Strategey = new Simple()
-Strategey = new Optimal()
+Strategey = new Simple()
+# Strategey = new Optimal()
 
 credits = 0
 creditsNaked = 0
@@ -21,8 +21,8 @@ spend = 0
 
 reportHand = ( a_hand ) ->
 	a_hand.cards.map( ( card, i ) ->
-		# return card.valueLetter() + card.unicodeSuit()
-		return card.rawValue + card.unicodeSuit()
+		return card.valueLetter() + card.unicodeSuit()
+		# return card.rawValue + card.unicodeSuit()
 	)
 
 playPoker = ( ) ->

@@ -14,8 +14,9 @@ Hand::discard = ( index ) ->
 	@cards.splice( idx, 1 )
 	return
 
-Hand::draw = ( ) ->
-	@cards.push( @opts.deck.draw() )
+Hand::draw = ( int ) ->
+	i = int or 1
+	@cards.push( @opts.deck.draw() ) for [1..i] if i
 	return
 
 Hand::replace = ( index ) ->
@@ -23,6 +24,15 @@ Hand::replace = ( index ) ->
 	@discard( idx )
 	@draw()
 	return
+
+Hand::keepArray = ( array ) ->
+	draw = 0
+	self = @
+	[0..4].reverse().map ( i ) ->
+		if array.indexOf( i ) is -1
+			self.discard( i )
+			draw++
+	@draw( draw )
 
 Hand::keepOne = ( index ) ->
 	idx = index or 0

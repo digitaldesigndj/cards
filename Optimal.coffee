@@ -6,17 +6,6 @@ Util = require( './Util' )
 
 JacksOrBetter = new Poker()
 
-straights = []
-straights.push( [0,9,10,11,12] )
-straights.push( [1..5] )
-straights.push( [2..6] )
-straights.push( [3..7] )
-straights.push( [4..8] )
-straights.push( [5..9] )
-straights.push( [6..10] )
-straights.push( [7..11] )
-straights.push( [8..12] )
-
 Optimal = ( options ) ->
 	@opts = options or {}
 	return @
@@ -67,7 +56,7 @@ Optimal::play = ( hand ) ->
 	if score.status is 'straight'
 		return hand
 
-	straight = getStraightOutlierCard( hand )
+	straight = JacksOrBetter.getStraightOutlierCard( hand )
 	# 9 4 to a straight flush (3.5319)
 	if flush.cards.length >= 4
 		if straight.length isnt 0
@@ -205,71 +194,6 @@ Optimal::play = ( hand ) ->
 
 
 # straights = () ->
-
-# 	return straights
-
-getStraightOutlierCard = ( hand ) ->
-	discard = []
-	good = []
-	straights.map ( straight ) ->
-		good.push straight.slice( 1, 5 )
-		return
-	straights.map ( straight ) ->
-		good.push spliceOutIdx1( straight )
-		return
-	straights.map ( straight ) ->
-		good.push spliceOutIdx2( straight )
-		return
-	straights.map ( straight ) ->
-		good.push spliceOutIdx3( straight )
-		return
-	straights.map ( straight ) ->
-		good.push straight.slice( 0, 4 )
-		return
-
-	current_hand = []
-	current_hand = hand.cards.map ( card, i ) ->
-		return card.rawValue
-	current_hand.sort( Util.sortNumber )
-	console.log current_hand
-
-	hands = []
-	# hand.map ( v, i ) ->
-
-	# current_hand.map ( card, i ) ->
-	# 	if i is 0
-	# 		hands[0].push( card )
-	# 	return
-	hands.push( current_hand.slice( 1, 5 ) )
-	hands.push( spliceOutIdx1( current_hand ) )
-	hands.push( spliceOutIdx2( current_hand ) )
-	hands.push( spliceOutIdx3( current_hand ) )
-	hands.push( current_hand.slice( 0, 4 ) )
-
-	# console.log hands, good
-	hands.map ( hand, i ) ->
-		# console.log( hand, i, current_hand[i] )
-		good.map ( straight, idx ) ->
-			if JSON.stringify( hand ) is JSON.stringify( straight )
-				console.log( 'GREAT SUCCESSS', current_hand[i] )
-				discard = current_hand[i]
-	return discard
-
-spliceOutIdx1 = ( thing ) ->
-	copy = thing.slice( 0, 1 )
-	copy2 = thing.slice( 2, 5 )
-	return copy.concat( copy2 )
-
-spliceOutIdx2 = ( thing ) ->
-	copy = thing.slice( 0, 2 )
-	copy2 = thing.slice( 3, 5 )
-	return copy.concat( copy2 )
-
-spliceOutIdx3 = ( thing ) ->
-	copy = thing.slice( 0, 3 )
-	copy2 = thing.slice( 4, 5 )
-	return copy.concat( copy2 )
-
 	# [0,9,10,11,12]
 	# [9,10,11,12]
 	# [0,10,11,12]

@@ -1,5 +1,7 @@
 'use strict'
 
+Util = require( './util' )
+
 Poker = ( options ) ->
 	@opts = options or {}
 	return @
@@ -15,7 +17,7 @@ Poker::score = ( hand, bet ) ->
 		values.push( card.rawValue )
 	)
 
-	values.sort( sortNumber )
+	values.sort( Util.sortNumber )
 
 	suits = []
 	hand.cards.map( ( card, i ) ->
@@ -194,7 +196,98 @@ Poker::getHighCards = ( hand ) ->
 	)
 	return high
 
-sortNumber = ( a, b ) ->
-	return a - b
+
+allStraights = [
+	[0,9,10,11,12]
+	[1..5]
+	[2..6]
+	[3..7]
+	[4..8]
+	[5..9]
+	[6..10]
+	[7..11]
+	[8..12]
+]
+
+outsideStraights = [
+	[1,2,3,4]
+	[2,3,4,5]
+	[3,4,5,6]
+	[4,5,6,7]
+	[5,6,7,8]
+	[6,7,8,9]
+	[7,8,9,10]
+	[8,9,10,11]
+]
+
+Poker::getStraightOutlierCard = ( hand, straight_kind ) ->
+	straights = []
+	if straight_kind is 'outside'
+		straights = outsideStraights
+	else
+		straights = allStraights
+	discard = []
+	good = []
+	straights.map ( straight ) ->
+		good.push straight.slice( 1, 5 )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx1( straight )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx2( straight )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx3( straight )
+		return
+	straights.map ( straight ) ->
+		good.push straight.slice( 0, 4 )
+		return
+
+	current_hand = []
+	current_hand = hand.cards.map ( card, i ) ->
+		return card.rawValue
+	current_hand.sort( Util.sortNumber )
+	# console.log current_hand
+
+	hands = []
+	# hand.map ( v, i ) ->
+
+	# current_hand.map ( card, i ) ->
+	# 	if i is 0
+	# 		hands[0].push( card )
+	# 	return
+	hands.push( current_hand.slice( 1, 5 ) )
+	hands.push( spliceOutIdx1( current_hand ) )
+	hands.push( spliceOutIdx2( current_hand ) )
+	hands.push( spliceOutIdx3( current_hand ) )
+	hands.push( current_hand.slice( 0, 4 ) )
+
+	# console.log hands, good
+	hands.map ( hand, i ) ->
+		# console.log( hand, i, current_hand[i] )
+		good.map ( straight, idx ) ->
+			if JSON.stringify( hand ) is JSON.stringify( straight )
+				# console.log( 'GREAT SUCCESSS', current_hand[i] )
+				discard = current_hand[i]
+	return discard
+
+spliceOutIdx1 = ( thing ) ->
+	copy = thing.slice( 0, 1 )
+	copy2 = thing.slice( 2, 5 )
+	return copy.concat( copy2 )
+
+spliceOutIdx2 = ( thing ) ->
+	copy = thing.slice( 0, 2 )
+	copy2 = thing.slice( 3, 5 )
+	return copy.concat( copy2 )
+
+spliceOutIdx3 = ( thing ) ->
+	copy = thing.slice( 0, 3 )
+	copy2 = thing.slice( 4, 5 )
+	return copy.concat( copy2 )
+
+# sortNumber = ( a, b ) ->
+# 	return a - b
 
 module.exports = Poker
