@@ -1,6 +1,7 @@
 'use strict'
 
 Poker = require( './Poker' )
+util = require( './util' )
 
 JacksOrBetter = new Poker()
 
@@ -10,32 +11,12 @@ Simple = ( options ) ->
 
 Simple::play = ( hand ) ->
 	score = JacksOrBetter.score( hand, 5 )
-	# console.log( score )
-
-	values = []
-	hand.cards.map( ( card, i ) ->
-		values.push( card.rawValue )
-	)
-
-	suits = []
-	hand.cards.map( ( card, i ) ->
-		suits.push( card.rawSuit )
-	)
-
-
-	# score.status = 'royalflush'
-	# score.status = 'straightflush'
-	# score.status = '4kind'
-	# score.status = 'fullhouse'
-	# score.status = 'flush'
-	# score.status = 'straight'
-	# score.status = '3kind'
-	# score.status = '2pair'
-	# score.status = 'jacksbetter'
-	# score.status = 'lowpair'
+	high = JacksOrBetter.getHighCards( hand )
+	flush = JacksOrBetter.getFlushCards( hand )
+	royalFlush = JacksOrBetter.getRoyalFlushCards( hand, high, flush )
 
 	# Simple Strategy 
-	
+
 	# Four of a kind, straight flush, royal flush
 	if score.status is 'royalflush'
 		return hand
@@ -44,37 +25,19 @@ Simple::play = ( hand ) ->
 	if score.status is '4kind'
 		return hand
 
-	straight = getStraightCards( hand )
-
 	# 4 to a royal flush
-	## Check for high cards
-	high = getHighCards( hand )
-	## Check for a flush
-	flush = getFlushCards( hand )
-	# if flush isnt false
-	# 	console.log( 'FLUSH', flush )
-	royalFlushCards = []
-
 	if flush.cards.length >= 3
 		if high.cards.length >= 3
-			high.cards.map( ( cardindex ) ->
-				if flush.cards.indexOf( cardindex ) isnt -1
-					royalFlushCards.push( cardindex )
-			)
-			if royalFlushCards.length is 4
+			if royalFlush.cards.length is 4
 				hand.cards.map( ( card, i ) ->
-					if royalFlushCards.indexOf( card ) is -1
+					if royalFlush.cards.indexOf( card ) is -1
 						hand.replace( i )
 				)
 				return hand
-				# console.log( hand )
-				# console.log( royalFlushCards, royalFlushCards.length )
-				# console.log( 'SomeROYAL', high.cards, flush.cards )
-				# console.log( hand.cards )
 
 	# Three of a kind, straight, flush, full house
 	if score.status is '3kind'
-		return holdPairs( hand, values, 3 )
+		return util.holdDupes( hand, 3 )
 
 	if score.status is 'straight'
 		return hand
@@ -105,12 +68,12 @@ Simple::play = ( hand ) ->
 
 	# High pair
 	if score.status is 'jacksbetter'
-		return holdPairs( hand, values, 2 )
+		return util.holdDupes( hand, 2 )
 
 	# 3 to a royal flush
-	if royalFlushCards.length >= 3
+	if royalFlush.cards.length >= 3
 		hand.cards.map( ( card, i ) ->
-			if royalFlushCards.indexOf( card ) is -1
+			if royalFlush.cards.indexOf( card ) is -1
 				hand.replace( i )
 		)
 		return hand
@@ -125,7 +88,7 @@ Simple::play = ( hand ) ->
 
 	# Low pair
 	if score.status is 'lowpair'
-		return holdPairs( hand, values, 2 )
+		return util.holdDupes( hand, 2 )
 
 	# 4 to an outside straight
 
@@ -163,102 +126,6 @@ Simple::play = ( hand ) ->
 		hand.replace(2)
 		hand.replace(3)
 		hand.replace(4)
-
 	return hand
-
-# Simple::step1 = ( hand ) ->
-# 	console.log hand
-# 	return 'whatss'
-
-sortNumber = ( a, b ) ->
-	return a - b
-
-getFlushCards = ( hand ) ->
-	flush =
-		cards: []
-		suit: ''
-	[0..3].map( ( v, i ) ->
-		count = 0
-		cards = []
-		hand.cards.map( ( card, idx ) ->
-			if card.rawSuit == v
-				count++
-				cards.push( idx )
-			return
-		)
-		if cards.length >= 3
-			flush.cards = cards
-			flush.suit = v
-	)
-	return flush
-
-getHighCards = ( hand ) ->
-	high =
-		cards: []
-	highCards = [0,9,10,11,12]
-	hand.cards.map( ( card, i ) ->
-		highCards.map( ( val ) ->
-			if card.rawValue is val
-				high.cards.push( i )
-		)
-	)
-	return high
-
-holdPairs = ( hand, values, length ) ->
-	[0..12].map( ( v, i ) ->
-		count = 0
-		holds = []
-		values.map( ( val, idx ) ->
-			if val == v
-				holds.push( idx )
-			return
-		)
-		if holds.length is length
-			hand.cards.map( ( card, index ) ->
-				if card.rawValue isnt v
-					hand.replace( index )
-			)
-	)
-	return hand
-
-getStraightCards = ( hand ) ->
-	smallStraights = []
-	straights = [
-		[0,9,10,11,12]
-		[1..5]
-		[2..6]
-		[3..7]
-		[4..8]
-		[5..9]
-		[6..10]
-		[7..11]
-		[8..12]
-	]
-
-	# [0,9,10,11,12]
-	# [9,10,11,12]
-	# [0,10,11,12]
-	# [0,9,11,12]
-	# [0,9,10,12]
-	# [0,9,10,11]
-
-	insideStraightQuads = [
-		[1..4]
-		[2..5]
-		[3..6]
-		[4..7]
-		[5..8]
-		[6..9]
-		[7..10]
-		[8..11]
-	]
-	# console.log( straights )
-	# straights.map( ( array, i ) ->
-	# 	array.map( ( v, idx ) ->
-	# 		small = array
-	# 		smallstraights.push( small.splice( idx, 1 ) )
-	# 	)
-	# )
-	# console.log( straights, smallstraights )
 
 module.exports = Simple

@@ -4,21 +4,25 @@ Deck = require( './Deck' )
 
 Hand = require( './Hand' )
 
+# Game
 Poker = require( './Poker' )
-
-Simple = require( './Simple' )
-
 JacksOrBetter = new Poker()
 
-Playa = new Simple()
+# Play Strategies
+Simple = require( './Simple' )
+Optimal = require( './Optimal' )
 
-credits = 1000
-creditsNaked = 1000
+# Strategey = new Simple()
+Strategey = new Optimal()
+
+credits = 0
+creditsNaked = 0
 spend = 0
 
 reportHand = ( a_hand ) ->
 	a_hand.cards.map( ( card, i ) ->
-		return card.value() + ' of ' + card.suit()
+		# return card.valueLetter() + card.unicodeSuit()
+		return card.rawValue + card.unicodeSuit()
 	)
 
 playPoker = ( ) ->
@@ -43,18 +47,25 @@ playPoker = ( ) ->
 	creditsNaked = creditsNaked - bet
 	creditsNaked = creditsNaked + scoreNaked.win
 
-	console.log( reportHand( TheHand ) )
-	theGame = Playa.play( TheHand )
-	console.log( reportHand( theGame ) )
+	console.log( reportHand( TheHand ), scoreNaked )
+
+	theGame = Strategey.play( TheHand )
 
 	score = JacksOrBetter.score( theGame, bet )
 	credits = credits - bet
 	credits = credits + score.win
 
+	console.log( reportHand( theGame ), score )
+
+	console.log(
+		'Credits: ' + credits
+		'No Play: ' + creditsNaked
+		'Spend: ' + spend
+		'Hands Played: ' + spend/5
+	)
 	# console.log( Playa.play( TheHand ) , TheHand )
-	if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
-		console.log( score, scoreNaked )
-	console.log( credits, creditsNaked, spend, spend/5 )
+	# if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
+		# console.log( score, scoreNaked )
 	
 
 	# if score.status is 'jacksbetter'
@@ -76,32 +87,4 @@ playPoker = ( ) ->
 
 playPoker()
 
-setInterval( playPoker, 1 )
-
-
-
-# war = ( player1, player2 ) ->
-# 	console.log( reportHand( player1 ) )
-# 	console.log( reportHand( player2 ) )
-# 	if player1.cards[0].rawValue == player2.cards[0].rawValue
-# 		console.log( "WAR" )
-# 	if player1.cards[0].rawValue > player2.cards[0].rawValue
-# 		console.log( "Player1" )
-# 	else
-# 		console.log( "Player2" )
-
-# play = () ->
-# 	TheDeck = new Deck()
-# 	TheDeck.shuffle()
-# 	YourHand = new Hand(
-# 		deck: TheDeck
-# 		size: 1
-# 	)
-# 	MyHand = new Hand(
-# 		deck: TheDeck
-# 		size: 1
-# 	)
-# 	war( YourHand, MyHand )
-# 	return
-
-# setInterval( play, 1000 )
+setInterval( playPoker, 0 )

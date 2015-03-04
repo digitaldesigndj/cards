@@ -24,4 +24,13 @@ Hand::replace = ( index ) ->
 	@draw()
 	return
 
+Hand::keepOne = ( index ) ->
+	idx = index or 0
+	[0..4].map( ( v ) ->
+		if idx != v
+			@discard( idx )
+			@draw()
+	)
+	return
+
 module.exports = Hand

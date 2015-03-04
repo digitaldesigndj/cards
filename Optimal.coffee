@@ -2,7 +2,20 @@
 
 Poker = require( './Poker' )
 
+Util = require( './Util' )
+
 JacksOrBetter = new Poker()
+
+straights = []
+straights.push( [0,9,10,11,12] )
+straights.push( [1..5] )
+straights.push( [2..6] )
+straights.push( [3..7] )
+straights.push( [4..8] )
+straights.push( [5..9] )
+straights.push( [6..10] )
+straights.push( [7..11] )
+straights.push( [8..12] )
 
 Optimal = ( options ) ->
 	@opts = options or {}
@@ -10,23 +23,9 @@ Optimal = ( options ) ->
 
 Optimal::play = ( hand ) ->
 	score = JacksOrBetter.score( hand, 5 )
-	# console.log( score )
-
-	# score.status = 'royalflush'
-	# score.status = 'straightflush'
-	# score.status = '4kind'
-	# score.status = 'fullhouse'
-	# score.status = 'flush'
-	# score.status = 'straight'
-	# score.status = '3kind'
-	# score.status = '2pair'
-	# score.status = 'jacksbetter'
-	# score.status = 'lowpair'
-
-	high = getHighCards( hand )
-	flush = getFlushCards( hand )
-	royalFlushCards = []
-	straight = getStraightCards( hand )
+	high = JacksOrBetter.getHighCards( hand )
+	flush = JacksOrBetter.getFlushCards( hand )
+	royalFlush = JacksOrBetter.getRoyalFlushCards( hand, high, flush )
 
 	# Optimal Strategy 
 
@@ -43,15 +42,11 @@ Optimal::play = ( hand ) ->
 		return hand
 
 	# 4 4 to a royal flush (18.3617)
-	if flush.cards.length >= 3
-		if high.cards.length >= 3
-			high.cards.map( ( cardindex ) ->
-				if flush.cards.indexOf( cardindex ) isnt -1
-					royalFlushCards.push( cardindex )
-			)
-			if royalFlushCards.length is 4
+	if flush.cards.length >= 4
+		if high.cards.length >= 4
+			if royalFlush.cards.length is 4
 				hand.cards.map( ( card, i ) ->
-					if royalFlushCards.indexOf( card ) is -1
+					if royalFlush.cards.indexOf( card ) is -1
 						hand.replace( i )
 				)
 				return hand
@@ -66,14 +61,19 @@ Optimal::play = ( hand ) ->
 
 	# 7 3 of a kind (4.3025)
 	if score.status is '3kind'
-		return holdDupes( hand, 3 )
+		return Util.holdDupes( hand, 3 )
 
 	# 8 Dealt straight (4.0000)
 	if score.status is 'straight'
 		return hand
 
+	straight = getStraightOutlierCard( hand )
 	# 9 4 to a straight flush (3.5319)
-
+	if flush.cards.length >= 4
+		if straight.length isnt 0
+			hand.cards.map ( card, i ) ->
+				if card.rawValue is straight
+					hand.replace( i )
 
 	# 10 Two pair (2.59574)
 	if score.status is '2pair'
@@ -90,13 +90,13 @@ Optimal::play = ( hand ) ->
 
 	# 11 High pair (1.5365)
 	if score.status is 'jacksbetter'
-		return holdDupes( hand, 2 )
+		return Util.holdDupes( hand, 2 )
 
 	# 12 3 to a royal flush (1.2868) A
 	# Exception 'A' not implemented
-	if royalFlushCards.length >= 3
+	if royalFlush.cards.length >= 3
 		hand.cards.map( ( card, i ) ->
-			if royalFlushCards.indexOf( card ) is -1
+			if royalFlush.cards.indexOf( card ) is -1
 				hand.replace( i )
 		)
 		return hand
@@ -110,11 +110,19 @@ Optimal::play = ( hand ) ->
 		return hand
 
 	# 14 Unsuited TJQK(0.8723)
-	
+
+	# NN 4 to a straight
+	if straight.length isnt 0
+		# once = false
+		# console.log straight
+		hand.cards.map ( card, i ) ->
+			if card.rawValue is straight
+				hand.replace( i )
+		return hand
 
 	# 15 Low pair (0.8237)
 	if score.status is 'lowpair'
-		return holdDupes( hand, 2 )
+		return Util.holdDupes( hand, 2 )
 
 	# 16 4 to an outside straight with 0-2 high cards(0.6809)
 	# 17 3 to a straight flush (type 1) (0.6207 to 0.6429)
@@ -130,11 +138,25 @@ Optimal::play = ( hand ) ->
 	# 27 2 unsuited high cards king highest (0.4862)
 	# 28 Suited TQ (0.4825) E
 	# 29 2 unsuited high cards ace highest (0.4743)
+
 	# 30 J only (0.4713)
+	# if singleJack
+		# return Util.holdSingle( hand, high, 'J')
+
 	# 31 Suited TK (0.4682) F
+
 	# 32 Q only (0.4681)
+	# if singleQueen
+		# return Util.holdSingle( hand, high, 'Q')
+
 	# 33 K only (0.4649)
+	# if singleKing
+		# return Util.holdSingle( hand, high, 'K')
+
 	# 34 A only (0.4640)
+	# if singleAce
+		# return Util.holdSingle( hand, high, 'A')
+
 	# 35 3 to a straight flush (type 3) (0.4431)
 	# 36 Garbage, discard everything (0.3597)
 
@@ -179,74 +201,74 @@ Optimal::play = ( hand ) ->
 
 	return hand
 
-# Optimal::step1 = ( hand ) ->
-# 	console.log hand
-# 	return 'whatss'
 
-sortNumber = ( a, b ) ->
-	return a - b
 
-getFlushCards = ( hand ) ->
-	flush =
-		cards: []
-		suit: ''
-	[0..3].map( ( v, i ) ->
-		count = 0
-		cards = []
-		hand.cards.map( ( card, idx ) ->
-			if card.rawSuit == v
-				count++
-				cards.push( idx )
-			return
-		)
-		if cards.length >= 3
-			flush.cards = cards
-			flush.suit = v
-	)
-	return flush
 
-getHighCards = ( hand ) ->
-	high =
-		cards: []
-	highCards = [0,9,10,11,12]
-	hand.cards.map( ( card, i ) ->
-		highCards.map( ( val ) ->
-			if card.rawValue is val
-				high.cards.push( i )
-		)
-	)
-	return high
+# straights = () ->
 
-holdDupes = ( hand, length ) ->
-	[0..12].map( ( v, i ) ->
-		count = 0
-		holds = []
-		hand.cards.map( ( card, idx ) ->
-			if card.rawValue == v
-				holds.push( idx )
-			return
-		)
-		if holds.length is length
-			hand.cards.map( ( card, index ) ->
-				if card.rawValue isnt v
-					hand.replace( index )
-			)
-	)
-	return hand
+# 	return straights
 
-getStraightCards = ( hand ) ->
-	smallStraights = []
-	straights = [
-		[0,9,10,11,12]
-		[1..5]
-		[2..6]
-		[3..7]
-		[4..8]
-		[5..9]
-		[6..10]
-		[7..11]
-		[8..12]
-	]
+getStraightOutlierCard = ( hand ) ->
+	discard = []
+	good = []
+	straights.map ( straight ) ->
+		good.push straight.slice( 1, 5 )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx1( straight )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx2( straight )
+		return
+	straights.map ( straight ) ->
+		good.push spliceOutIdx3( straight )
+		return
+	straights.map ( straight ) ->
+		good.push straight.slice( 0, 4 )
+		return
+
+	current_hand = []
+	current_hand = hand.cards.map ( card, i ) ->
+		return card.rawValue
+	current_hand.sort( Util.sortNumber )
+	console.log current_hand
+
+	hands = []
+	# hand.map ( v, i ) ->
+
+	# current_hand.map ( card, i ) ->
+	# 	if i is 0
+	# 		hands[0].push( card )
+	# 	return
+	hands.push( current_hand.slice( 1, 5 ) )
+	hands.push( spliceOutIdx1( current_hand ) )
+	hands.push( spliceOutIdx2( current_hand ) )
+	hands.push( spliceOutIdx3( current_hand ) )
+	hands.push( current_hand.slice( 0, 4 ) )
+
+	# console.log hands, good
+	hands.map ( hand, i ) ->
+		# console.log( hand, i, current_hand[i] )
+		good.map ( straight, idx ) ->
+			if JSON.stringify( hand ) is JSON.stringify( straight )
+				console.log( 'GREAT SUCCESSS', current_hand[i] )
+				discard = current_hand[i]
+	return discard
+
+spliceOutIdx1 = ( thing ) ->
+	copy = thing.slice( 0, 1 )
+	copy2 = thing.slice( 2, 5 )
+	return copy.concat( copy2 )
+
+spliceOutIdx2 = ( thing ) ->
+	copy = thing.slice( 0, 2 )
+	copy2 = thing.slice( 3, 5 )
+	return copy.concat( copy2 )
+
+spliceOutIdx3 = ( thing ) ->
+	copy = thing.slice( 0, 3 )
+	copy2 = thing.slice( 4, 5 )
+	return copy.concat( copy2 )
 
 	# [0,9,10,11,12]
 	# [9,10,11,12]
@@ -255,16 +277,16 @@ getStraightCards = ( hand ) ->
 	# [0,9,10,12]
 	# [0,9,10,11]
 
-	insideStraightQuads = [
-		[1..4]
-		[2..5]
-		[3..6]
-		[4..7]
-		[5..8]
-		[6..9]
-		[7..10]
-		[8..11]
-	]
+	# insideStraightQuads = [
+	# 	[1..4]
+	# 	[2..5]
+	# 	[3..6]
+	# 	[4..7]
+	# 	[5..8]
+	# 	[6..9]
+	# 	[7..10]
+	# 	[8..11]
+	# ]
 	# console.log( straights )
 	# straights.map( ( array, i ) ->
 	# 	array.map( ( v, idx ) ->

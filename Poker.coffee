@@ -153,6 +153,47 @@ Poker::paytable = ( ) ->
 		'lowpair': 0
 	return payout
 
+Poker::getRoyalFlushCards = ( hand, high, flush ) ->
+	royalFlush = 
+		cards: []
+		suit: flush.suit
+	high.cards.map( ( cardindex ) ->
+		if flush.cards.indexOf( cardindex ) isnt -1
+			royalFlush.cards.push( cardindex )
+	)
+	return royalFlush
+
+Poker::getFlushCards = ( hand ) ->
+	flush =
+		cards: []
+		suit: ''
+	[0..3].map( ( v, i ) ->
+		count = 0
+		cards = []
+		hand.cards.map( ( card, idx ) ->
+			if card.rawSuit == v
+				count++
+				cards.push( idx )
+			return
+		)
+		if cards.length >= 3
+			flush.cards = cards
+			flush.suit = v
+	)
+	return flush
+
+Poker::getHighCards = ( hand ) ->
+	high =
+		cards: []
+	highCards = [0,9,10,11,12]
+	hand.cards.map( ( card, i ) ->
+		highCards.map( ( val ) ->
+			if card.rawValue is val
+				high.cards.push( i )
+		)
+	)
+	return high
+
 sortNumber = ( a, b ) ->
 	return a - b
 
