@@ -16,7 +16,6 @@ Simple::play = ( hand ) ->
 	hand.cards.map( ( card, i ) ->
 		values.push( card.rawValue )
 	)
-	values.sort( sortNumber )
 
 	suits = []
 	hand.cards.map( ( card, i ) ->
@@ -47,7 +46,7 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a royal flush
-	four2flush = values
+	four2flush = values.sort( sortNumber )
 	if four2flush.shift() is 0
 	# if acelow
 			[
@@ -65,26 +64,25 @@ Simple::play = ( hand ) ->
 
 
 	# Three of a kind, straight, flush, full house
-
 	if score.status is '3kind'
+		return holdPairs( hand, values, 3 )
+
+	if score.status is 'straight'
 		return hand
-	else if score.status is 'straight'
+	if score.status is 'flush'
 		return hand
-	else if score.status is 'flush'
-		return hand
-	else if score.status is 'fullhouse'
+	if score.status is 'fullhouse'
 		return hand
 
 	# 4 to a straight flush
 
 	# Two pair
-
 	if score.status is '2pair'
 		return hand
 
 	# High pair
 	if score.status is 'jacksbetter'
-		return hand
+		return holdPairs( hand, values, 2 )
 
 	# 3 to a royal flush
 
@@ -102,7 +100,7 @@ Simple::play = ( hand ) ->
 
 	# Low pair
 	if score.status is 'lowpair'
-		return hand
+		return holdPairs( hand, values, 2 )
 
 	# 4 to an outside straight
 
@@ -115,14 +113,31 @@ Simple::play = ( hand ) ->
 	# Suited 10/J, 10/Q, or 10/K
 
 	# One high card
+	# (Holds All High Cards)
+	highcard = false
+	discards = []
+	hand.cards.map( ( card, i ) ->
+		[0,9,10,11,12].map( ( val, idx ) ->
+			if card.rawValue is val
+				highcard = true
+			else
+				discards.push( idx )
+		)
+	)
+	if discards.length > 0
+		discards.map( ( discard ) ->
+			hand.replace( discard )
+		)
+		return hand
 
 	# Discard everything
-	# console.log( 'lose everything' )
-	hand.replace()
-	hand.replace()
-	hand.replace()
-	hand.replace()
-	hand.replace()
+	if highcard is false
+		console.log( 'lose everything' )
+		hand.replace(0)
+		hand.replace(1)
+		hand.replace(2)
+		hand.replace(3)
+		hand.replace(4)
 
 	return hand
 
@@ -132,5 +147,22 @@ Simple::play = ( hand ) ->
 
 sortNumber = ( a, b ) ->
 	return a - b
+
+holdPairs = ( hand, values, length ) ->
+	[0..12].map( ( v, i ) ->
+		count = 0
+		holds = []
+		values.map( ( val, idx ) ->
+			if val == v
+				holds.push( idx )
+			return
+		)
+		if holds.length is length
+			hand.cards.map( ( card, index ) ->
+				if card.rawValue isnt v
+					hand.replace( index )
+			)
+	)
+	return hand
 
 module.exports = Simple

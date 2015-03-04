@@ -44,8 +44,9 @@ playPoker = ( ) ->
 	credits = credits - bet
 	credits = credits + score.win
 
-	console.log( score, scoreNaked )
 	# console.log( Playa.play( TheHand ) , TheHand )
+	if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
+		console.log( score, scoreNaked )
 	console.log( credits, creditsNaked )
 
 	# if score.status is 'jacksbetter'
