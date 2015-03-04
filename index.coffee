@@ -14,6 +14,7 @@ Playa = new Simple()
 
 credits = 1000
 creditsNaked = 1000
+spend = 0
 
 reportHand = ( a_hand ) ->
 	a_hand.cards.map( ( card, i ) ->
@@ -36,6 +37,8 @@ playPoker = ( ) ->
 	# Score Poker
 	bet = 5
 
+	spend = spend + bet
+
 	scoreNaked = JacksOrBetter.score( TheHand, bet )
 	creditsNaked = creditsNaked - bet
 	creditsNaked = creditsNaked + scoreNaked.win
@@ -47,7 +50,7 @@ playPoker = ( ) ->
 	# console.log( Playa.play( TheHand ) , TheHand )
 	if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
 		console.log( score, scoreNaked )
-	console.log( credits, creditsNaked )
+	console.log( credits, creditsNaked, spend )
 
 	# if score.status is 'jacksbetter'
 	# 	console.log( reportHand( TheHand ) , score )

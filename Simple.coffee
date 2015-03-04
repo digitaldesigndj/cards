@@ -35,6 +35,11 @@ Simple::play = ( hand ) ->
 	# score.status = 'lowpair'
 
 
+	# royal flush player
+	# if 3+ royals
+	# if royals flush
+	# Do it
+
 	# Simple Strategy 
 	
 	# Four of a kind, straight flush, royal flush
@@ -75,9 +80,31 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a straight flush
+	[0..3].map( ( v, i ) ->
+		count = 0
+		suits.map( ( val, idx ) ->
+			if val == v
+				count++
+			return
+		)
+		if count is 4
+			## Look for straight, discard outlier
+			return hand
+	)
 
 	# Two pair
 	if score.status is '2pair'
+		hand.cards.map( ( card, i ) ->
+			occurance = 0
+			hand.cards.map( ( compare_card ) ->
+				if card.rawValue is compare_card.rawValue
+					occurance++
+			)
+			if occurance is 1
+				# console.log( hand.cards, i )
+				hand.replace( i )
+				# console.log( hand.cards )
+		)
 		return hand
 
 	# High pair
@@ -87,6 +114,7 @@ Simple::play = ( hand ) ->
 	# 3 to a royal flush
 
 	# 4 to a flush
+	flushSuit = ''
 	[0..3].map( ( v, i ) ->
 		count = 0
 		suits.map( ( val, idx ) ->
@@ -95,8 +123,15 @@ Simple::play = ( hand ) ->
 			return
 		)
 		if count is 4
-			return hand
+			flushSuit = v
 	)
+	if flushSuit isnt ''
+		# console.log( flushSuit )
+		hand.cards.map( ( card, i ) ->
+			if card.rawSuit isnt flushSuit
+				hand.replace( i )
+		)
+		return hand
 
 	# Low pair
 	if score.status is 'lowpair'
