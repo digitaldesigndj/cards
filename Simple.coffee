@@ -45,27 +45,53 @@ Simple::play = ( hand ) ->
 	# Four of a kind, straight flush, royal flush
 	if score.status is 'royalflush'
 		return hand
-	else if score.status is 'straightflush'
+	if score.status is 'straightflush'
 		return hand
-	else if score.status is '4kind'
+	if score.status is '4kind'
 		return hand
 
 	# 4 to a royal flush
-	four2flush = values.sort( sortNumber )
-	if four2flush.shift() is 0
-	# if acelow
-			[
-				[0,9,10,11]
-				[0,9,10,12]
-				[0,9,11,12]
-				[0,10,11,12]
-			].map( ( v, i ) ->
-				if JSON.stringify( four2flush ) is JSON.stringify( v )
-					return hand
-			)
-	else
-		if JSON.stringify( four2flush ) is JSON.stringify( [9,10,11,12] )
-			return hand
+
+	#4 to a flush
+	fourToAFlushSuit = ''
+	threeToAFlushSuit = ''
+	[0..3].map( ( v, i ) ->
+		count = 0
+		suits.map( ( val, idx ) ->
+			if val == v
+				count++
+			return
+		)
+		if count is 4
+			fourToAFlushSuit = v
+		else if count is 3
+			threeToAFlushSuit = v
+	)
+	# console.log( fourToAFlushSuit )
+	if fourToAFlushSuit isnt ''
+		four2flush = values.sort( sortNumber )
+		if four2flush.shift() is 0
+		# if acelow
+				[
+					[0,9,10,11]
+					[0,9,10,12]
+					[0,9,11,12]
+					[0,10,11,12]
+				].map( ( v, i ) ->
+					if JSON.stringify( four2flush ) is JSON.stringify( v )
+						hand.cards.map( ( card, idx ) ->
+							# if card.rawValue isnt in 
+							found = false
+							if [0,9,10,11,12].find( ( element ) ->
+								if card.rawValue is element
+									found = true
+							)
+						)
+						return hand
+				)
+		else
+			if JSON.stringify( four2flush ) is JSON.stringify( [9,10,11,12] )
+				return hand
 
 
 	# Three of a kind, straight, flush, full house
@@ -80,17 +106,20 @@ Simple::play = ( hand ) ->
 		return hand
 
 	# 4 to a straight flush
-	[0..3].map( ( v, i ) ->
-		count = 0
-		suits.map( ( val, idx ) ->
-			if val == v
-				count++
-			return
+	if fourToAFlushSuit isnt ''
+		# DO THINGS LIKE 
+		## Look for straight, discard outlier
+		[0..3].map( ( v, i ) ->
+			count = 0
+			suits.map( ( val, idx ) ->
+				if val == v
+					count++
+				return
+			)
+			if count is 4
+				## Look for straight, discard outlier
+				return hand
 		)
-		if count is 4
-			## Look for straight, discard outlier
-			return hand
-	)
 
 	# Two pair
 	if score.status is '2pair'
@@ -112,23 +141,14 @@ Simple::play = ( hand ) ->
 		return holdPairs( hand, values, 2 )
 
 	# 3 to a royal flush
+	if threeToAFlushSuit isnt ''
+		console.log( 'threeToAFlushSuit', threeToAFlushSuit )
 
 	# 4 to a flush
-	flushSuit = ''
-	[0..3].map( ( v, i ) ->
-		count = 0
-		suits.map( ( val, idx ) ->
-			if val == v
-				count++
-			return
-		)
-		if count is 4
-			flushSuit = v
-	)
-	if flushSuit isnt ''
-		# console.log( flushSuit )
+	# completion
+	if fourToAFlushSuit isnt ''
 		hand.cards.map( ( card, i ) ->
-			if card.rawSuit isnt flushSuit
+			if card.rawSuit isnt fourToAFlushSuit
 				hand.replace( i )
 		)
 		return hand

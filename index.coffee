@@ -50,7 +50,7 @@ playPoker = ( ) ->
 	# console.log( Playa.play( TheHand ) , TheHand )
 	if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
 		console.log( score, scoreNaked )
-	console.log( credits, creditsNaked, spend )
+	console.log( credits, creditsNaked, spend, spend/5 )
 
 	# if score.status is 'jacksbetter'
 	# 	console.log( reportHand( TheHand ) , score )
