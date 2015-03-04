@@ -4,24 +4,13 @@ Poker = require( './Poker' )
 
 JacksOrBetter = new Poker()
 
-Simple = ( options ) ->
+Optimal = ( options ) ->
 	@opts = options or {}
 	return @
 
-Simple::play = ( hand ) ->
+Optimal::play = ( hand ) ->
 	score = JacksOrBetter.score( hand, 5 )
 	# console.log( score )
-
-	values = []
-	hand.cards.map( ( card, i ) ->
-		values.push( card.rawValue )
-	)
-
-	suits = []
-	hand.cards.map( ( card, i ) ->
-		suits.push( card.rawSuit )
-	)
-
 
 	# score.status = 'royalflush'
 	# score.status = 'straightflush'
@@ -34,27 +23,26 @@ Simple::play = ( hand ) ->
 	# score.status = 'jacksbetter'
 	# score.status = 'lowpair'
 
-	# Simple Strategy 
-	
-	# Four of a kind, straight flush, royal flush
+	high = getHighCards( hand )
+	flush = getFlushCards( hand )
+	royalFlushCards = []
+	straight = getStraightCards( hand )
+
+	# Optimal Strategy 
+
+	# 1 Dealt royal flush (800.0000)
 	if score.status is 'royalflush'
 		return hand
+
+	# 2 Dealt straight flush (50.0000)
 	if score.status is 'straightflush'
 		return hand
+
+	# 3 Dealt four of a kind (25.0000)
 	if score.status is '4kind'
 		return hand
 
-	straight = getStraightCards( hand )
-
-	# 4 to a royal flush
-	## Check for high cards
-	high = getHighCards( hand )
-	## Check for a flush
-	flush = getFlushCards( hand )
-	# if flush isnt false
-	# 	console.log( 'FLUSH', flush )
-	royalFlushCards = []
-
+	# 4 4 to a royal flush (18.3617)
 	if flush.cards.length >= 3
 		if high.cards.length >= 3
 			high.cards.map( ( cardindex ) ->
@@ -67,28 +55,27 @@ Simple::play = ( hand ) ->
 						hand.replace( i )
 				)
 				return hand
-				# console.log( hand )
-				# console.log( royalFlushCards, royalFlushCards.length )
-				# console.log( 'SomeROYAL', high.cards, flush.cards )
-				# console.log( hand.cards )
 
-	# Three of a kind, straight, flush, full house
-	if score.status is '3kind'
-		return holdPairs( hand, values, 3 )
-
-	if score.status is 'straight'
-		return hand
-	if score.status is 'flush'
-		return hand
+	# 5 Dealt full house (9.0000)
 	if score.status is 'fullhouse'
 		return hand
 
-	# 4 to a straight flush
-	# if flush.cards.length >= 4
-	# 	# DO THINGS LIKE 
-	# 	## Look for straight, discard outlier
+	# 6 Dealt flush (6.0000)
+	if score.status is 'flush'
+		return hand
 
-	# Two pair
+	# 7 3 of a kind (4.3025)
+	if score.status is '3kind'
+		return holdDupes( hand, 3 )
+
+	# 8 Dealt straight (4.0000)
+	if score.status is 'straight'
+		return hand
+
+	# 9 4 to a straight flush (3.5319)
+
+
+	# 10 Two pair (2.59574)
 	if score.status is '2pair'
 		hand.cards.map( ( card, i ) ->
 			occurance = 0
@@ -97,17 +84,16 @@ Simple::play = ( hand ) ->
 					occurance++
 			)
 			if occurance is 1
-				# console.log( hand.cards, i )
 				hand.replace( i )
-				# console.log( hand.cards )
 		)
 		return hand
 
-	# High pair
+	# 11 High pair (1.5365)
 	if score.status is 'jacksbetter'
-		return holdPairs( hand, values, 2 )
+		return holdDupes( hand, 2 )
 
-	# 3 to a royal flush
+	# 12 3 to a royal flush (1.2868) A
+	# Exception 'A' not implemented
 	if royalFlushCards.length >= 3
 		hand.cards.map( ( card, i ) ->
 			if royalFlushCards.indexOf( card ) is -1
@@ -115,7 +101,7 @@ Simple::play = ( hand ) ->
 		)
 		return hand
 
-	# 4 to a flush
+	# 13 4 to a flush (1.2766)
 	if flush.cards.length >= 4
 		hand.cards.map( ( card, i ) ->
 			if flush.cards.indexOf( i ) is -1
@@ -123,19 +109,46 @@ Simple::play = ( hand ) ->
 		)
 		return hand
 
-	# Low pair
+	# 14 Unsuited TJQK(0.8723)
+	
+
+	# 15 Low pair (0.8237)
 	if score.status is 'lowpair'
-		return holdPairs( hand, values, 2 )
+		return holdDupes( hand, 2 )
 
-	# 4 to an outside straight
+	# 16 4 to an outside straight with 0-2 high cards(0.6809)
+	# 17 3 to a straight flush (type 1) (0.6207 to 0.6429)
+	# 18 Suited QJ (0.6004)B
+	# 19 4 to an inside straight, 4 high cards (0.5957)
+	# 20 Suited KQ or KJ (0.5821)
+	# 21 Suited AK, AQ, or AJ (0.5678)
+	# 22 4 to an inside straight, 3 high cards (0.5319)
+	# 23 3 to a straight flush (type 2) (0.5227 to 0.5097)C
+	# 24 Unsuited JQK (0.5005)
+	# 25 Unsuited JQ (0.4980)
+	# 26 Suited TJ (0.4968) D
+	# 27 2 unsuited high cards king highest (0.4862)
+	# 28 Suited TQ (0.4825) E
+	# 29 2 unsuited high cards ace highest (0.4743)
+	# 30 J only (0.4713)
+	# 31 Suited TK (0.4682) F
+	# 32 Q only (0.4681)
+	# 33 K only (0.4649)
+	# 34 A only (0.4640)
+	# 35 3 to a straight flush (type 3) (0.4431)
+	# 36 Garbage, discard everything (0.3597)
 
-	# 2 suited high cards
 
-	# 3 to a straight flush
+	# Hands That Are Never Played
 
-	# 2 unsuited high cards (if more than 2 then pick the lowest 2)
+	# Suited 10 and ace (keep the ace only)
+	# 3 unsuited high cards, ace highest (keep the lowest two high cards)
+	# 4 to an inside straight, 2 high cards (keep the two high cards)
+	# 4 to an inside straight, 1 high card (keep the single high card)
+	# 4 to an inside straight, 0 high cards (discard everything)
 
-	# Suited 10/J, 10/Q, or 10/K
+
+	# OLD OLD OLD
 
 	# One high card
 	# (Holds All High Cards)
@@ -166,7 +179,7 @@ Simple::play = ( hand ) ->
 
 	return hand
 
-# Simple::step1 = ( hand ) ->
+# Optimal::step1 = ( hand ) ->
 # 	console.log hand
 # 	return 'whatss'
 
@@ -204,12 +217,12 @@ getHighCards = ( hand ) ->
 	)
 	return high
 
-holdPairs = ( hand, values, length ) ->
+holdDupes = ( hand, length ) ->
 	[0..12].map( ( v, i ) ->
 		count = 0
 		holds = []
-		values.map( ( val, idx ) ->
-			if val == v
+		hand.cards.map( ( card, idx ) ->
+			if card.rawValue == v
 				holds.push( idx )
 			return
 		)
@@ -261,4 +274,4 @@ getStraightCards = ( hand ) ->
 	# )
 	# console.log( straights, smallstraights )
 
-module.exports = Simple
+module.exports = Optimal

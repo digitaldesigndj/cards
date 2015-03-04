@@ -43,8 +43,9 @@ playPoker = ( ) ->
 	creditsNaked = creditsNaked - bet
 	creditsNaked = creditsNaked + scoreNaked.win
 
+	console.log( reportHand( TheHand ) )
 	theGame = Playa.play( TheHand )
-	# console.log( reportHand( theGame ) )
+	console.log( reportHand( theGame ) )
 
 	score = JacksOrBetter.score( theGame, bet )
 	credits = credits - bet

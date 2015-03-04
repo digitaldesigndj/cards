@@ -39,10 +39,6 @@ Poker::score = ( hand, bet ) ->
 		[8..12]
 	]
 	royal_straight = [0,9,10,11,12]
-	# pair_count = 0
-	# triple_count = 0
-	# jacks_or_better = false
-	# console.log( values )
 	royal = false
 	straight = false
 	flush = false
@@ -74,7 +70,7 @@ Poker::score = ( hand, bet ) ->
 			return
 		)
 		if count is 2
-			if v >= 9
+			if v >= 9 or v is 0
 				jacksorbetter = true
 			if pair1 is true
 				pair2 = true
@@ -103,7 +99,7 @@ Poker::score = ( hand, bet ) ->
 		score.status = 'royalflush'
 		score.win = bet * 800
 		return score
-	else if  ( flush or royal ) and straight
+	else if straight and flush
 		score.status = 'straightflush'
 		score.win = bet * 50
 		return score
@@ -115,11 +111,11 @@ Poker::score = ( hand, bet ) ->
 		score.status = 'fullhouse'
 		score.win = bet * 9
 		return score
-	else if flush or royal
+	else if flush
 		score.status = 'flush'
 		score.win = bet * 6
 		return score
-	else if straight
+	else if straight or royal
 		score.status = 'straight'
 		score.win = bet * 4
 		return score
@@ -142,20 +138,20 @@ Poker::score = ( hand, bet ) ->
 	else
 		return score
 
-# Royal flush	800
-# Straight flush	50
-# Four of a kind	25
-# Full house	9
-# Flush	6
-# Straight	4
-# Three of a kind	3
-# Two pair	2
-# Pair	1
-# Nothing	0
 
-
-Poker::thing = ( ) ->
-	return 'string'
+Poker::paytable = ( ) ->
+	payout =
+		'royalflush': 800
+		'straightflush': 50
+		'4kind': 25
+		'fullhouse': 9
+		'flush': 6
+		'straight': 4
+		'3kind': 3
+		'2pair': 2
+		'jacksbetter': 1
+		'lowpair': 0
+	return payout
 
 sortNumber = ( a, b ) ->
 	return a - b
