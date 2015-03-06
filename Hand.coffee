@@ -2,6 +2,7 @@
 
 Hand = ( options ) ->
 	@opts = options or {}
+	@opts.deck = options.deck
 	@opts.size = options.size or 0
 	@cards = []
 	while @cards.length < @opts.size

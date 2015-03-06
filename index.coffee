@@ -1,17 +1,16 @@
 'use strict'
 
+fs = require('fs')
+
 Deck = require( './Deck' )
-
 Hand = require( './Hand' )
-
 # Game
 Poker = require( './Poker' )
-JacksOrBetter = new Poker()
-
 # Play Strategies
 Simple = require( './Simple' )
 Optimal = require( './Optimal' )
 
+JacksOrBetter = new Poker()
 Strategey = new Simple()
 # Strategey = new Optimal()
 
@@ -20,12 +19,15 @@ creditsNaked = 0
 spend = 0
 
 reportHand = ( a_hand ) ->
+	# console.log( a_hand )
+	if a_hand.type == 'strategy'
+		a_hand = a_hand.hand
 	a_hand.cards.map( ( card, i ) ->
 		return card.valueLetter() + card.unicodeSuit()
 		# return card.rawValue + card.unicodeSuit()
 	)
 
-playPoker = ( ) ->
+playPoker = ( stream ) ->
 	TheDeck = new Deck()
 	TheDeck.shuffle()
 	TheHand = new Hand(
@@ -33,58 +35,42 @@ playPoker = ( ) ->
 		size: 5
 	)
 
-	# Play Poker Here
-	# score = Playa.play( TheHand )
-	# console.log( score )
-
-
 	# Score Poker
 	bet = 5
 
 	spend = spend + bet
 
-	scoreNaked = JacksOrBetter.score( TheHand, bet )
-	creditsNaked = creditsNaked - bet
-	creditsNaked = creditsNaked + scoreNaked.win
+	# scoreNaked = JacksOrBetter.score( TheHand, bet )
+	# creditsNaked = creditsNaked - bet
+	# creditsNaked = creditsNaked + scoreNaked.win
 
-	console.log( reportHand( TheHand ), scoreNaked )
+	stream.write( reportHand( TheHand ) + "\n" )
 
 	theGame = Strategey.play( TheHand )
+	# console.log( )
+	# console.log( theGame, 'sumtin', theGame.hand )
 
-	score = JacksOrBetter.score( theGame, bet )
+	stream.write( reportHand( theGame ) + "\n" )
+
+	score = JacksOrBetter.score( TheHand, bet )
 	credits = credits - bet
 	credits = credits + score.win
 
-	console.log( reportHand( theGame ), score )
+	stream.write( JSON.stringify( score ) + "\n" )
 
-	console.log(
-		'Credits: ' + credits
-		'No Play: ' + creditsNaked
-		'Spend: ' + spend
-		'Hands Played: ' + spend/5
+# module.exports = playPoker
+
+awesome = () ->
+	stream = fs.createWriteStream( Math.round(new Date().getTime()/1000.0) + '.txt')
+	stream.once('open', (fd)->
+		[1..2000].map ( i ) ->
+			playPoker( stream )
+		stream.write( 'Credits: ' + credits + '\n' )
+		# stream.write( 'No Play: ' + creditsNaked + '\n' )
+		stream.write( 'Spend: ' + spend + '\n' )
+		stream.write( 'Hands Played: ' + spend/5 + '\n' )
+		stream.end()
 	)
-	# console.log( Playa.play( TheHand ) , TheHand )
-	# if JSON.stringify( score ) isnt JSON.stringify( scoreNaked )
-		# console.log( score, scoreNaked )
-	
 
-	# if score.status is 'jacksbetter'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is '2pair'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is '3kind'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is 'flush'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is '4kind'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is 'royalflush'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is 'straightflush'
-	# 	console.log( reportHand( TheHand ) , score )
-	# if score.status is 'straight'
-	# 	console.log( reportHand( TheHand ) , score )
 
-playPoker()
-
-setInterval( playPoker, 0 )
+setInterval( awesome, 2000 )

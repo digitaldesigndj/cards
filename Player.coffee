@@ -4,25 +4,14 @@ Card = require( './Card' )
 
 Player = ( options ) ->
 	@opts = options or {}
-	@hand = options.hand or {}
+	@opts.hand = options.hand or {}
+	@opts.credits = options.credits or 100
+	@opts.spend = options.spend or 0
+	@opts.name = options.name or 21
+	@opts.age = options.age or 21
 	@opts.handsPerDay = options.handsPerDay or 5000
 	@opts.speedModifier = options.speedModifier or 1
 	return @
-
-Player::init = ( ) ->
-	self = @
-	deck = self.suits.map( ( suit, i ) ->
-		return self.values.map( ( value, val_i ) -> 
-			return new Card(
-				suit: suit
-				value: value
-			)
-		)
-	)
-	.reduce( ( a, b ) ->
-		return a.concat( b )
-	)
-	return deck
 
 Player::shuffle = ( ) ->
 	array = @cards

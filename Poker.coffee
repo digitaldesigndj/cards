@@ -10,6 +10,8 @@ Poker::score = ( hand, bet ) ->
 	self = @
 	bet = bet || 5
 
+	# console.log(  hand )
+	# , hand.cards  )
 	# Doubles
 	# rawsuit
 	values = []
@@ -178,10 +180,11 @@ Poker::getFlushCards = ( hand ) ->
 				cards.push( idx )
 			return
 		)
-		if cards.length >= 3
+		if cards.length > 2
 			flush.cards = cards
 			flush.suit = v
 	)
+	# console.log flush
 	return flush
 
 Poker::getHighCards = ( hand ) ->
@@ -222,11 +225,43 @@ outsideStraights = [
 
 Poker::getStraightOutlierCard = ( hand, straight_kind ) ->
 	straights = []
+	discard = []
+	current_hand = []
+	good = []
+	hands = []
+
 	if straight_kind is 'outside'
 		straights = outsideStraights
+		good = straights
 	else
 		straights = allStraights
-	discard = []
+		good = mapAllStraights( straights )
+
+	current_hand = hand.cards.map ( card, i ) ->
+		return card.rawValue
+	current_hand.sort( Util.sortNumber )
+	# console.log current_hand
+
+	hands = handsWithFourCards( current_hand )
+	# console.log hands, good
+	hands.map ( hand, i ) ->
+		# console.log( hand, i, current_hand[i] )
+		good.map ( straight, idx ) ->
+			if JSON.stringify( hand ) is JSON.stringify( straight )
+				# console.log( 'GREAT SUCCESSS', current_hand[i] )
+				discard = current_hand[i]
+	return discard
+
+handsWithFourCards = ( current_hand ) ->
+	hands = []
+	hands.push( current_hand.slice( 1, 5 ) )
+	hands.push( spliceOutIdx1( current_hand ) )
+	hands.push( spliceOutIdx2( current_hand ) )
+	hands.push( spliceOutIdx3( current_hand ) )
+	hands.push( current_hand.slice( 0, 4 ) )
+	return hands
+
+mapAllStraights = ( straights ) ->
 	good = []
 	straights.map ( straight ) ->
 		good.push straight.slice( 1, 5 )
@@ -243,34 +278,7 @@ Poker::getStraightOutlierCard = ( hand, straight_kind ) ->
 	straights.map ( straight ) ->
 		good.push straight.slice( 0, 4 )
 		return
-
-	current_hand = []
-	current_hand = hand.cards.map ( card, i ) ->
-		return card.rawValue
-	current_hand.sort( Util.sortNumber )
-	# console.log current_hand
-
-	hands = []
-	# hand.map ( v, i ) ->
-
-	# current_hand.map ( card, i ) ->
-	# 	if i is 0
-	# 		hands[0].push( card )
-	# 	return
-	hands.push( current_hand.slice( 1, 5 ) )
-	hands.push( spliceOutIdx1( current_hand ) )
-	hands.push( spliceOutIdx2( current_hand ) )
-	hands.push( spliceOutIdx3( current_hand ) )
-	hands.push( current_hand.slice( 0, 4 ) )
-
-	# console.log hands, good
-	hands.map ( hand, i ) ->
-		# console.log( hand, i, current_hand[i] )
-		good.map ( straight, idx ) ->
-			if JSON.stringify( hand ) is JSON.stringify( straight )
-				# console.log( 'GREAT SUCCESSS', current_hand[i] )
-				discard = current_hand[i]
-	return discard
+	return good
 
 spliceOutIdx1 = ( thing ) ->
 	copy = thing.slice( 0, 1 )
