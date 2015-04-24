@@ -1,0 +1,24 @@
+#!bin/bash
+
+# Configure Webserver
+
+# Read Nginx Config, Modify $SITE and $PORT
+
+# Copy to sites-available
+cp $PROJECT_DIR/nginx /etc/nginx/sites-available/$SITE
+
+# Symlink to activte
+linksite $SITE
+
+# Nginx Test
+nginx -t
+
+# Check for good Nginx results
+
+# Nginx Reload Configuration
+nginx -s reload
+
+linksite () {
+	# $1 = $SITE
+	ln -s /etc/nginx/sites-available/$1 /etc/nginx/sites-enabled/$1
+}

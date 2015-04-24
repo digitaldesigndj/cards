@@ -1,5 +1,7 @@
 'use strict'
 
+# Poker Scoring 
+
 Util = require( './util' )
 
 Poker = ( options ) ->

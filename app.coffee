@@ -84,4 +84,4 @@ server.register
 	return
 
 server.start () ->
-	console.info('Server started at ' + server.info.uri)
+	console.info('Server started at ' + server.info.uri + "\n" + 'do this: /{hands}/{bet}')

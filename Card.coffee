@@ -1,6 +1,8 @@
 'use strict'
 
-Card = ( options ) ->
+# Card Module
+
+module.exports = ( options ) ->
 	@opts = options or {}
 	@suit = options.suit or 0
 	@value = options.value or 0
@@ -72,5 +74,3 @@ Card = ( options ) ->
 			else
 				return 'black'
 	return card
-
-module.exports = Card
